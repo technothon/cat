@@ -25,5 +25,4 @@ fi
 
 docker rm `docker ps -a -q`
 docker build -t confd .
-set -x
 docker run -it -v $PWD/$cdb_dir:/root/cdb confd 

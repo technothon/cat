@@ -1,0 +1,469 @@
+{
+  "name": "TG_SIPART_IAD",
+  "state": "enabled",
+  "mode": "inService",
+  "action": "dryUp",
+  "dryUpTimeout": 5,
+  "downstreamForkingSupport": "disabled",
+  "processSGConfigWhenTGOOS": "disabled",
+  "ucidSupport": "none",
+  "recordingDNpreference": "fromHeaderOnly",
+  "sipResponseCodeStats": "disabled",
+  "policy": {
+    "carrier": "0000",
+    "country": "1",
+    "localizationVariant": "northAmerica",
+    "tgIPVersionPreference": "both-ipv4-and-ipv6",
+    "preferredIdentity": "disable",
+    "digitParameterHandling": {
+      "numberingPlan": "NANP_ACCESS"
+    },
+    "callRouting": {
+      "elementRoutingPriority": "TGPRIO"
+    },
+    "media": {
+      "packetServiceProfile": "DEFAULT"
+    },
+    "services": {
+      "classOfService": "DEFAULT_IP"
+    },
+    "signaling": {
+      "ipSignalingProfile": "IAD_PCSCFPROFILE"
+    },
+    "featureControlProfile": "DEFAULT_IP",
+    "hpcOversubscription": 10,
+    "ingress": {
+      "flags": {
+        "nonZeroVideoBandwidthBasedRoutingForSip": "enable",
+        "nonZeroVideoBandwidthBasedRoutingForH323": "disable",
+        "hdPreferredRouting": "disable",
+        "hdSupportedRouting": "disable"
+      }
+    }
+  },
+  "packetOutage": {
+    "minimumDuration": 6000,
+    "minimumCalls": 1000,
+    "bandwidthLimitReduction": 50,
+    "detectionState": "disabled",
+    "detectionInterval": 15
+  },
+  "tgMtrgCallsPerReq": 20,
+  "tgMtrgBwPerReq": 12400,
+  "tgMtrgResAllocation": "localignored",
+  "tgMtrgReqMaxCalls": "unlimited",
+  "tgMtrgReqMaxBw": "unlimited",
+  "callReservation": {
+    "inbound": 0,
+    "state": "disabled",
+    "priorityCallMinimum": 1,
+    "incomingCallMinimum": 1,
+    "outgoingCallMinimum": 10,
+    "silc": {
+      "state": "disabled",
+      "MC1Percent": 75,
+      "MC2Percent": 25
+    }
+  },
+  "cac": {
+    "callLimit": "unlimited",
+    "bandwidthLimit": "unlimited",
+    "bandwidthVideoThreshold": 0,
+    "callLimitThreshold": 0,
+    "bandwidthLimitThreshold": 0,
+    "emergencyOversubscription": 10,
+    "extendedEmergencyIpLimit": 0,
+    "registrationLimit": "unlimited",
+    "estimatedChildRegistrations": 1,
+    "subscriptionLimit": "unlimited",
+    "tcpMediaLimit": "unlimited",
+    "hpcOversubscription": 10,
+    "ingress": {
+      "callRateMax": "unlimited",
+      "callBurstMax": "unlimited",
+      "registerRateMax": "unlimited",
+      "registerBurstMax": "unlimited",
+      "callLimit": "unlimited",
+      "emergencyOversubscription": 10,
+      "extendedEmergencyIpLimit": 0,
+      "subscribeRateMax": "unlimited",
+      "subscribeBurstMax": "unlimited",
+      "otherReqRateMax": "unlimited",
+      "otherReqBurstMax": "unlimited",
+      "hpcOversubscription": 10
+    },
+    "egress": {
+      "callRateMax": "unlimited",
+      "callBurstMax": "unlimited",
+      "registerRateMax": "unlimited",
+      "registerBurstMax": "unlimited",
+      "callLimit": "unlimited",
+      "emergencyOversubscription": 10,
+      "extendedEmergencyIpLimit": 0,
+      "subscribeRateMax": "unlimited",
+      "subscribeBurstMax": "unlimited",
+      "otherReqRateMax": "unlimited",
+      "otherReqBurstMax": "unlimited",
+      "hpcOversubscription": 10
+    }
+  },
+  "qoe": {
+    "minTimeToProceed": 60,
+    "rfactor": {
+      "criticalQosRfactorLimit": 50,
+      "majorQosRfactorLimit": 70
+    },
+    "asr": {
+      "defaultQosAsr": 90,
+      "criticalQosAsrLimit": 40,
+      "majorQosAsrLimit": 70
+    },
+    "scru": {
+      "criticalQosScruLimit": 80
+    },
+    "clu": {
+      "criticalQosCluLimit": 80
+    },
+    "pgrd": {
+      "criticalQosPgrdLimit": 2000,
+      "defaultPgrdFactor": 500
+    }
+  },
+  "signaling": {
+    "accessClass": "none",
+    "callingParty": {
+      "paiForCallingParty": "enabled",
+      "ppiForCallingParty": "enabled",
+      "rpiForCallingParty": "enabled",
+      "fromHdrForCallingParty": "enabled",
+      "mapIsupCgpnToPAI": "disabled",
+      "mapFromHeaderToIsupGAP": "disabled",
+      "cpcParamFromHeader": "default",
+      "trustedSourceForIsup": "enabled"
+    },
+    "routeMsgValidation": "noValidation",
+    "maxFwdsDefault": 70,
+    "TCPFallback": {
+      "maxMTUSupportedOverUDPControl": "disabled",
+      "maxMTUSupportedOverUDPValue": 1300
+    },
+    "backwardInfoMsgConDialog": "disabled",
+    "P-HeaderExtensions": {
+      "useIngressOrigCa": "disabled",
+      "addEgressOrigCa": "disabled"
+    },
+    "isupMimeBodyRelay": "disabled",
+    "sdpTransparency": {
+      "sdpTransparencyState": "disabled"
+    },
+    "messageManipulation": {
+      "includeAppHdrs": "disabled",
+      "smmProfileExecution": "none",
+      "global": {
+        "globalState": "enabled"
+      },
+      "addresscontext": {
+        "acState": "enabled"
+      },
+      "zone": {
+        "zoneState": "enabled"
+      },
+      "iptg": {
+        "iptgState": "enabled"
+      }
+    },
+    "causeCodeMapping": {
+      "useNonDefaultCauseCodeforARSBlackList": "disabled"
+    },
+    "methods": {
+      "message": "allow",
+      "publish": "allow",
+      "options": "allow",
+      "refer": "allow",
+      "subscribe": "allow",
+      "notify": "allow",
+      "info": "allow",
+      "register": "allow",
+      "update": "allow"
+    },
+    "retryCounters": {
+      "general": 7,
+      "invite": 6,
+      "bye": 3,
+      "cancel": 3,
+      "reInvite": 3,
+      "retryOn422": 5,
+      "retryOn491": 5,
+      "invite200": 0
+    },
+    "timers": {
+      "t1": 500,
+      "t2": 4000,
+      "tcpRetransmitTimer": 6,
+      "sctpRetransmitTimer": 6,
+      "sessionKeepalive": 1800,
+      "nonNatKeepAliveTimer": 60,
+      "sessionMinSE": 90,
+      "sessionTerminationDeltaTime": 0,
+      "suspendResumeTimer": {
+        "state": "disabled",
+        "value": 30,
+        "type": "both"
+      },
+      "ocsDialogTimer": 1440,
+      "bfcpTimer": {
+        "reqTimerT1": 500,
+        "respTimerT2": 10000
+      },
+      "sipSwitchoverKeepAliveDelay": 0
+    },
+    "registration": {
+      "requireRegistration": "none",
+      "expires": 3600,
+      "insideExpiresMinimum": 3600,
+      "includeXOriginalAddr": "disabled",
+      "bulkRegisterFormat": "disabled",
+      "intRefreshFactorMin": 0,
+      "intRefreshFactorMax": 0,
+      "extRefreshFactorMin": 0,
+      "extRefreshFactorMax": 0,
+      "alwaysRandomIntExpires": "disabled",
+      "alwaysRandomExtExpires": "disabled",
+      "useRUriForRegisterRouting": "disabled",
+      "preserveRcbOnRefreshRegErrResponse": "disabled"
+    },
+    "authentication": {
+      "intChallengeResponse": "disabled",
+      "incInternalCredentials": "disabled"
+    },
+    "transportPreference": {
+      "preference1": "none",
+      "preference2": "none",
+      "preference3": "none",
+      "preference4": "none"
+    },
+    "rel100Support": "enabled",
+    "sdp100relIwkForPrack": "disabled",
+    "prefRequireTransparency": "disabled",
+    "privacyParamRestricted": "default",
+    "relayNonInviteRequest": "disabled",
+    "treatPortZeroAsNoAudio": "disabled",
+    "relayUpdatewithSdp": "disabled",
+    "uriPreference": "none",
+    "strictParse": "disabled",
+    "skipDTGLookupForRouteHdr": "disabled",
+    "processTgrpContext": "disabled",
+    "isubParamPreference": "rfc2806",
+    "variantType": "sonus",
+    "factorValue": 1,
+    "alwaysReplyInactiveIfReceivedInactive": "disabled",
+    "localNumberSupport": "disabled",
+    "disableTermIOIForPcscf": "disabled",
+    "deRegParentWithChildDereg": "disabled",
+    "usePSXRouteAsReqUriInReg": "disabled",
+    "psxRouteForSubscribe": "disabled",
+    "validateAor": "enabled",
+    "sourceAddressValidation": "disabled",
+    "condIncMethInAllowHdr": "disabled",
+    "sipFilterProfile": "default",
+    "X-Headers": {
+      "HeaderFlag": "none",
+      "HeaderProfile": "XHeaderDefault",
+      "IsupProfile": "ttc93+"
+    },
+    "acceptHistoryInfo": "disabled",
+    "egressCallIdStaticString": "-",
+    "allowByeChallenge": "disabled",
+    "enforceTlsIfSipsUriScheme": "disabled",
+    "enforceSipsIfEgressIsTls": "disabled",
+    "tlsPeerName": "",
+    "usePsxRouteForEmergencyCall": "disabled",
+    "ocsSupport": "disabled",
+    "relayReplacesHeader": "disabled",
+    "sendSdpToPsx": "disabled",
+    "postDialDelay": {
+      "timeOut": 0,
+      "responseCode": 503
+    },
+    "useGAPwhenRnDisabled": "disabled",
+    "support199OptionTag": "disabled",
+    "keepSupport": "disabled",
+    "outboundSupport": "disabled",
+    "silenceSuppTreatment": "treatAsFaxTransmissionIndication",
+    "pemInterworking": "sendPEMBeforeIngressPreconditions",
+    "rfc3261ValidateCSeqInBYE": "disabled",
+    "rfc3261ValidateInvite200OkRetransmissions": "disabled",
+    "useRandomUserInfoInContactHdr": "disabled",
+    "suppressNonRouteInviteResponse": "disabled",
+    "dnsForceReQuery": "disabled",
+    "usePcfaCcf": "disabled",
+    "honorMaddrParam": "disabled",
+    "rewriteIdentities": "disabled",
+    "usePortRangeFlag": "disabled",
+    "storeICID": "disabled",
+    "clearTcpConnectionsforRegistration": "disabled",
+    "stopLmsdToneOnUpdate": "disabled",
+    "dropIsupMimeBody": "disabled",
+    "cpcInterworkingForNNI": "disabled",
+    "convertAlertToProgress": "disabled",
+    "rfc7332ValidateMaxForwards": "disabled",
+    "nassImsAuth": {
+      "accessType": "none",
+      "xDSL": "adsl",
+      "ethernet": "ieee-802-3",
+      "fiber": "g-pon"
+    },
+    "s8hrSupport": "disabled",
+    "gibaSupportForS8hrInboundUser": "enabled",
+    "embeddedRegInfoinUserPart": "disabled",
+    "allowSimultaneous18xUPDATEtransaction": "disabled",
+    "clearModeAsCodec": "disabled",
+    "honorContactInRegisterForTLSCalls": "disabled",
+    "performPrecondtionRenegotiation": "disabled",
+    "preferUPDATEOverReINVITE": "disabled"
+  },
+  "services": {
+    "dnsSupportType": "a-only",
+    "preconditions": "none",
+    "transmitPreconditions": "supported",
+    "preconditionIntwkUsing183": "disabled",
+    "honorSdpClockRate": "disabled",
+    "overlapAddressing": {
+      "overlapState": "disabled",
+      "minDigitsForQuery": 0,
+      "timer2": 0,
+      "timer3": 4,
+      "receive": "disabled",
+      "send": "disabled",
+      "timer1": 10
+    },
+    "longDurationCall": {
+      "timeoutValue": 0,
+      "action": "noAction",
+      "relCause": 41,
+      "emergencyOrPriorityCalls": "exclude",
+      "emergencyCalls": "exclude"
+    },
+    "natTraversal": {
+      "signalingNat": "disabled",
+      "mediaNat": "disabled",
+      "learnNatForRtpOnly": "disabled",
+      "iceSupport": "none",
+      "iceKeepaliveTimer": 15,
+      "iceTrickle": "disabled",
+      "tcpKeepaliveTimer": 240,
+      "udpKeepaliveTimer": 60,
+      "outboundTcpKeepaliveTimer": 240,
+      "outboundUdpKeepaliveTimer": 60,
+      "secureMediaNatPrefix": 0,
+      "adaptiveLearning": {
+        "state": "disabled",
+        "maxUdpPinholeTimer": 180,
+        "maxTcpPinholeTimer": 600,
+        "reLearningInterval": 24
+      },
+      "iceSourceAddressFilterPriority": {
+        "state": "enabled",
+        "serverReflexivePrefixLength": 16
+      },
+      "iceTcpRole": "passive",
+      "disableMediaNatIfSameMediaAndSigIP": "disabled"
+    },
+    "localSurvivability": {
+      "localSurvivabilityState": "disabled",
+      "allowLocalRegistration": "disabled"
+    },
+    "emergencyCallHandlingMode": "none",
+    "remoteEPreservation": "disabled",
+    "sipJipProfile": "defaultJipProfile",
+    "sipJurisdictionSupport": "disabled",
+    "usePreviousLearnedIpAddress": "disabled",
+    "dialogEventNotificationSupported": "disabled",
+    "colocatedPandEcscf": "disabled",
+    "dnsNaptrAlways": "disabled"
+  },
+  "media": {
+    "dataPathModePassthru": "disabled",
+    "directMediaAllowed": "disabled",
+    "directMediaAllowedBehindNapt": "disabled",
+    "directMediaAntiTrombone": "disabled",
+    "directMediaGroupId": 0,
+    "lateMediaSupport": "convert",
+    "multipleAudioStreamsSupport": "disabled",
+    "disallowSrtpStream": "disabled",
+    "maxPtimeDefault": 150,
+    "comediaConnectionRole": "none",
+    "tmr64K": "disabled",
+    "mediaIpInterfaceGroupName": "LIG1",
+    "mediaIpSecondaryInterfaceGroupName": "",
+    "mediaIpAddress": "0.0.0.0",
+    "sourceAddressFiltering": "enabled",
+    "mediaAddrType": "matchSigAddrType",
+    "anat": {
+      "offerPreference": "matchSigAddrType",
+      "answerPreference": "matchSigAddrType"
+    },
+    "ice": {
+      "offerPreference": "matchSigAddrType",
+      "answerPreference": "matchSigAddrType"
+    },
+    "recordable": "disabled",
+    "earlyMedia": {
+      "method": "sessionAnswer",
+      "egressSupport": "enabled",
+      "suppressGatedParam": "disabled",
+      "monitorRtp": "disabled",
+      "defaultGatingMethod": "sendrecv",
+      "forkingBehaviour": "lastReceivedSdp"
+    },
+    "sdpAttributesSelectiveRelay": "disabled",
+    "relayUnknownAttrsForAudioTrancodeCalls": "disabled",
+    "pcrf": {
+      "pcrfCommitment": "none",
+      "cushionPacketSize": "disabled",
+      "cushionNullSdp": "disabled",
+      "signallingPath": "disabled",
+      "fetchLocationInfo": "none",
+      "provSignalingFlow": "disabled",
+      "terminateOnNwFailure": "disabled",
+      "pcrfInteractionMode": "synchronous",
+      "pcrfSendAarOnlyForSessionAnswer": "disabled"
+    },
+    "msrp": "enabled",
+    "msrpMux": "disabled",
+    "mediaPortRange": {
+      "baseUdpPort": "none",
+      "maxUdpPort": "none"
+    },
+    "tcpPortRange": {
+      "baseServerPort": "none",
+      "maxServerPort": "none"
+    },
+    "omrAllowed": "disabled",
+    "advertiseAudioOnly": "disabled",
+    "lyncShare": "enabled",
+    "appSpecificBandwidth": "disabled"
+  },
+  "callRouting": {
+    "useRouteSet": "disabled",
+    "ansSupervisionTimeout": 300,
+    "ansSupervisionTimeoutAction": "release",
+    "crankBackProfile": "default",
+    "internationalNoaPlus": "disabled",
+    "addStoredPathAsTopRoute": "disabled",
+    "dnsCrankback": "disabled",
+    "sendRouteUriToPsx": "disabled"
+  },
+  "congestionHandling": {
+    "egressThrottling": "disabled",
+    "retryAfterMin": 10,
+    "retryAfterMax": 30
+  },
+  "ingressIpPrefix": [
+    {
+      "ipAddress": "10.7.0.0",
+      "prefixLength": 16
+    }
+  ],
+  "blockDirection": "none"
+}
