@@ -25,4 +25,5 @@ fi
 
 docker rm `docker ps -a -q`
 docker build -t confd .
-docker run -v /home/prasanth/examples/docker-confd/cdb:/opt/sonus/sbx/tailf/var/confd/cdb/ confd 
+set -x
+docker run -it -v $PWD/$cdb_dir:/root/cdb confd 
