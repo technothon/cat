@@ -32,8 +32,13 @@ def main():
         if os.path.exists(input_path):
             cluster=cluster_fun(input_path)  
             cluster=dict(cluster)
+            if os.path.exists(output_path):
+                print("yes")
+                mode = 'w'
+            else:
+                mode = 'a'
             json_data=json.dumps(cluster)
-            with open(output_path,'a') as file:
+            with open(output_path, mode) as file:
                 file.write(json_data)
         return cluster
 cluster = main()
