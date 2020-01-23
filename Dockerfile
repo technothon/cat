@@ -13,13 +13,19 @@ RUN apt-get update && apt-get install -y authbind && apt-get clean && rm -rf /va
 
 #RUN apt-get install -y authbind 
 ENV APP_INSTALL_DIR_BASE /opt/sonus/sbx
+
+# Create directories for cdb, csv, scripts
+RUN mkdir -p /opt/cat/database
+RUN mkdir -p /opt/cat/scripts
+RUN mkdir -p /opt/cat/cdbs
+RUN mkdir -p /opt/cat/results
  
 RUN mkdir -p /opt/sonus/sbx/tailf
 #RUN mkdir -p /opt/sonus/sbx/fxs
 RUN rm -f /opt/sonus/sbx/tailf/var/confd/cdb/*.xml
 COPY tailf /opt/sonus/sbx/tailf
 #COPY fxs /opt/sonus/sbx/
-COPY files/scripts/dumper.sh /root
+COPY files/scripts/* /root
 COPY files/libs/* /usr/lib/x86_64-linux-gnu/
 RUN sed -i 's/10.0.1.20/127.0.0.1/g' /opt/sonus/sbx/tailf/confd.conf
 RUN sed -i '/confdIpcExtraListenIp/d' /opt/sonus/sbx/tailf/confd.conf
