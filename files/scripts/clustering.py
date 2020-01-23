@@ -13,10 +13,13 @@ import json
 def cluster_fun(file_path):
     df = pd.read_csv (file_path)
     X = df.iloc[:,:]
-    af = AffinityPropagation(preference=-50)
-    af.fit(X)
-    cluster_centers_indices = af.cluster_centers_indices_
+    X.fillna(X.mean(), inplace=True)
+    af = DBSCAN(eps=3, min_samples=0).fit(X)
     labels = af.labels_
+    #af = AffinityPropagation(preference=-50)
+    #af.fit(X)
+    #cluster_centers_indices = af.cluster_centers_indices_
+    #labels = af.labels_
     cluster = defaultdict(list)
     for index in range(len(labels)):
         cluster[str(labels[index])].append(str(index))
