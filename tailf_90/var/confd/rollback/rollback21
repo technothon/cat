@@ -1,0 +1,12 @@
+# Created by: admin
+# Date: 2020-01-22 09:38:39
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10009
+
+addressContext default {
+    delete:
+    zone ZONE_AS;
+}

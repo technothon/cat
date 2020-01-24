@@ -1,0 +1,31 @@
+# Created by: admin
+# Date: 2020-01-23 03:56:53
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10032
+
+addressContext default {
+    zone ZONE_AS {
+        sipTrunkGroup TG_SIPART_AS {
+            cac {
+                egress {
+                    registerRateMax unlimited;
+                    registerBurstMax unlimited;
+                    callRateMax unlimited;
+                    callBurstMax unlimited;
+                }
+                ingress {
+                    registerRateMax unlimited;
+                    subscribeBurstMax unlimited;
+                    callLimit unlimited;
+                    registerBurstMax unlimited;
+                    otherReqRateMax unlimited;
+                    subscribeRateMax unlimited;
+                    otherReqBurstMax unlimited;
+                }
+             }
+         }
+     }
+ }

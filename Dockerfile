@@ -14,6 +14,19 @@ RUN apt-get update && apt-get install -y authbind && apt-get clean && rm -rf /va
 #RUN apt-get install -y authbind 
 ENV APP_INSTALL_DIR_BASE /opt/sonus/sbx
 
+RUN apt-get update \
+    && apt-get install -y authbind \
+                          python \
+                          python-pip \
+    && pip install flask \
+                   gunicorn \
+                   pandas \
+                   pathlib \
+                   flatten_json \
+                   numpy \
+                   scikit-learn \
+    && apt-get clean && rm -rf /var/lib/apt/lists/* 
+
 # Create directories for cdb, csv, scripts
 RUN mkdir -p /opt/cat/database
 RUN mkdir -p /opt/cat/scripts
@@ -27,14 +40,16 @@ RUN rm -f /opt/sonus/sbx/tailf/var/confd/cdb/*.xml
 COPY tailf /opt/sonus/sbx/tailf
 COPY fxs /opt/sonus/sbx/fxs/
 #COPY fxs /opt/sonus/sbx/
-COPY files/scripts/* /root
+COPY files/scripts/* /root/
 COPY files/libs/* /usr/lib/x86_64-linux-gnu/
-COPY user-storage-trans-app /root
+COPY user-storage-trans-app /root/
 RUN sed -i 's/10.0.1.20/127.0.0.1/g' /opt/sonus/sbx/tailf/confd.conf
 RUN sed -i '/confdIpcExtraListenIp/d' /opt/sonus/sbx/tailf/confd.conf
 RUN sed -i '/extraIpPorts/d' /opt/sonus/sbx/tailf/confd.conf
+RUN sed -i '/\/mib\//d' /opt/sonus/sbx/tailf/confd.conf
 
 
-#CMD [ "/bin/bash", "-c" , "/root/dumper.sh > /opt/sonus/sbx/tailf/var/confd/cdb/d.txt" ]
+#CMD [ "python" , "/root/generateCsvFromCdbs.py > /opt/sonus/sbx/tailf/var/confd/cdb/d.txt" ]
 
-ENTRYPOINT "/root/dumper.sh" && /bin/bash
+#ENTRYPOINT "/root/generateCsvFromCdbs.py" && /bin/bash
+ENTRYPOINT /bin/bash

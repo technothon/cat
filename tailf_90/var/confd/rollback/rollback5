@@ -1,0 +1,19 @@
+# Created by: admin
+# Date: 2020-01-22 23:40:37
+# Via: noaaa
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10026
+
+oam {
+    aaa {
+        authentication {
+            users {
+                user admin {
+                    password $6$lU82QFhAw42$TIhDn/yxNkocoMYXDr7FQmTAocEiVhAklxm638UjjYbpGXjDEAXCbDNhC4iqUbGxtu4zEJjSQ/3nhCN6NbE7A/;
+                }
+             }
+         }
+     }
+ }

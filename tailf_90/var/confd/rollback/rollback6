@@ -1,0 +1,19 @@
+# Created by: admin
+# Date: 2020-01-22 09:38:54
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10024
+
+addressContext default {
+    zone ZONE_AS {
+        sipTrunkGroup TG_SIPART_AS {
+            policy {
+                callRouting {
+                    elementRoutingPriority DEFAULT_IP;
+                }
+             }
+         }
+     }
+ }

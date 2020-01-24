@@ -1,0 +1,16 @@
+# Created by: admin
+# Date: 2020-01-23 04:09:41
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10034
+
+addressContext default {
+    zone ZONE_AS {
+        sipSigPort 2 {
+            delete:
+            dscpValue 5;
+        }
+     }
+ }

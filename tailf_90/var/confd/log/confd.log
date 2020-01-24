@@ -1,0 +1,581 @@
+<INFO> 22-Jan-2020::15:44:29.177 bf060 confd[36529]: - Enabling error log
+<INFO> 22-Jan-2020::15:44:29.183 bf060 confd[36529]: - Writing error log to /opt/sonus/sbx/tailf/var/confd/log/confderr.log
+<INFO> 22-Jan-2020::15:44:29.198 bf060 confd[36529]: - Writing daemon log to /opt/sonus/sbx/tailf/var/confd/log/confd.log
+<INFO> 22-Jan-2020::15:44:29.198 bf060 confd[36529]: - Writing NETCONF log to /opt/sonus/sbx/tailf/var/confd/log/netconf.log
+<INFO> 22-Jan-2020::15:44:29.198 bf060 confd[36529]: - Writing SNMP log to /opt/sonus/sbx/tailf/var/confd/log/snmp.log
+<INFO> 22-Jan-2020::15:44:29.198 bf060 confd[36529]: - Writing audit log to /opt/sonus/sbx/tailf/var/confd/log/audit.log
+<INFO> 22-Jan-2020::15:44:29.198 bf060 confd[36529]: - Writing developer log to /opt/sonus/sbx/tailf/var/confd/log/devel.log
+<INFO> 22-Jan-2020::15:44:29.198 bf060 confd[36529]: - Daemon logging started
+<DEBUG> 22-Jan-2020::15:44:29.335 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/iana-crypt-hash.fxs
+<DEBUG> 22-Jan-2020::15:44:29.336 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/SNMP-MPD-MIB.fxs
+<DEBUG> 22-Jan-2020::15:44:29.336 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/SNMP-FRAMEWORK-MIB.fxs
+<DEBUG> 22-Jan-2020::15:44:29.337 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusCacDataTypes.fxs
+<DEBUG> 22-Jan-2020::15:44:29.338 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/sonusHornetTc.fxs
+<DEBUG> 22-Jan-2020::15:44:29.339 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/SNMPv2-TC.fxs
+<DEBUG> 22-Jan-2020::15:44:29.339 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/PerfHist-TC-MIB.fxs
+<DEBUG> 22-Jan-2020::15:44:29.340 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusOrcaTc.fxs
+<DEBUG> 22-Jan-2020::15:44:29.342 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/ietf-netconf-acm.fxs
+<DEBUG> 22-Jan-2020::15:44:29.343 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/sonusTc.fxs
+<DEBUG> 22-Jan-2020::15:44:29.344 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/sonusLicense.fxs
+<DEBUG> 22-Jan-2020::15:44:29.345 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/sonusTrap.fxs
+<DEBUG> 22-Jan-2020::15:44:29.346 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/sonusQSbcCdr.fxs
+<DEBUG> 22-Jan-2020::15:44:29.346 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/sonusEma.fxs
+<DEBUG> 22-Jan-2020::15:44:29.347 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/sonusCdrServer.fxs
+<DEBUG> 22-Jan-2020::15:44:29.349 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusAccounting.fxs
+<DEBUG> 22-Jan-2020::15:44:29.350 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/sonusAaa.fxs
+<DEBUG> 22-Jan-2020::15:44:29.353 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/sonusMetaVar.fxs
+<DEBUG> 22-Jan-2020::15:44:29.353 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/sonusHaPort.fxs
+<DEBUG> 22-Jan-2020::15:44:29.355 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusDspUsagePerformanceStats.fxs
+<DEBUG> 22-Jan-2020::15:44:29.361 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/tailf-aaa.fxs
+<DEBUG> 22-Jan-2020::15:44:29.362 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/SNMPv2-MIB.fxs
+<DEBUG> 22-Jan-2020::15:44:29.363 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/SNMP-VIEW-BASED-ACM-MIB.fxs
+<DEBUG> 22-Jan-2020::15:44:29.364 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/SNMP-USER-BASED-SM-MIB.fxs
+<DEBUG> 22-Jan-2020::15:44:29.365 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/SNMP-TARGET-MIB.fxs
+<DEBUG> 22-Jan-2020::15:44:29.367 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeList.fxs
+<DEBUG> 22-Jan-2020::15:44:29.367 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusPort.fxs
+<DEBUG> 22-Jan-2020::15:44:29.371 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusMetadata.fxs
+<DEBUG> 22-Jan-2020::15:44:29.373 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusGen2Security.fxs
+<DEBUG> 22-Jan-2020::15:44:29.375 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/sonusGen2Profiles.fxs
+<DEBUG> 22-Jan-2020::15:44:29.376 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusGtProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.377 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusAorGroupProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.378 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusTrafficFlowControlProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.379 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusToneCodecEntry.fxs
+<DEBUG> 22-Jan-2020::15:44:29.380 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusGen2NrmTone.fxs
+<DEBUG> 22-Jan-2020::15:44:29.382 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusGen2NrmAnnouncement.fxs
+<DEBUG> 22-Jan-2020::15:44:29.383 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusRelayProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.384 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusXHeaderProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.387 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusTestCallNumberProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.388 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusStiProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.388 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSipTransparencyProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.389 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSipToCpcCauseMapProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.391 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSipSecurityProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.392 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSipRecMetadataProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.393 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSipParamFilterProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.394 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSipJJ9030InterworkingProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.395 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSipInternalCauseMapProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.396 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSipArsProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.397 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSipAdaptiveTransparencyProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.398 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusRetryProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.400 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusPsxScriptProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.400 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusPrivacyProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.401 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNNIProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.402 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusHpcCallProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.404 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusGen2SipVplmn.fxs
+<DEBUG> 22-Jan-2020::15:44:29.405 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusGen2SipJip.fxs
+<DEBUG> 22-Jan-2020::15:44:29.406 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusGen2SipHplmn.fxs
+<DEBUG> 22-Jan-2020::15:44:29.407 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusGen2SipFilter.fxs
+<DEBUG> 22-Jan-2020::15:44:29.411 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusGen2NrmDiscTreat.fxs
+<DEBUG> 22-Jan-2020::15:44:29.412 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusEnhancedDblProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.414 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusE164Profile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.415 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusDtlsProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.416 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusDblProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.417 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusCpcToSipCauseMapProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.418 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusCalledPrefixMatchProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.419 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusGen2SipRph.fxs
+<DEBUG> 22-Jan-2020::15:44:29.421 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSctpProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.422 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusIpsecProfiles.fxs
+<DEBUG> 22-Jan-2020::15:44:29.423 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusDscpProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.424 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusCryptoSuiteProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.425 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusCodecListProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.426 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/sonusSnmp.fxs
+<DEBUG> 22-Jan-2020::15:44:29.427 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusIpmProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.429 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusOvldProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.430 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/SNMP-NOTIFICATION-MIB.fxs
+<DEBUG> 22-Jan-2020::15:44:29.431 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/SNMP-COMMUNITY-MIB.fxs
+<DEBUG> 22-Jan-2020::15:44:29.432 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSystem.fxs
+<DEBUG> 22-Jan-2020::15:44:29.448 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGen2Profiles.fxs
+<DEBUG> 22-Jan-2020::15:44:29.449 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGlobal.fxs
+<DEBUG> 22-Jan-2020::15:44:29.455 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListAddressContext.fxs
+<DEBUG> 22-Jan-2020::15:44:29.457 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSignalingQosKpiProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.458 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNumberGlobalizeProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.459 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusMediaQosKpiProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.460 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusIsupSignalingProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.470 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusATProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.471 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSurrogateRegistrationProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.472 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSipCacProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.477 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusPathchkProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.479 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusGen2NrmCrankback.fxs
+<DEBUG> 22-Jan-2020::15:44:29.481 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSignalingProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.486 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusIpSignalingPeerGroup.fxs
+<DEBUG> 22-Jan-2020::15:44:29.487 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusFeatureControlProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.488 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusElemRoutingPriority.fxs
+<DEBUG> 22-Jan-2020::15:44:29.489 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusTlsProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.491 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusDmPmCriteria.fxs
+<DEBUG> 22-Jan-2020::15:44:29.496 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusCallParamFilterProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.497 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/sonusSystem.fxs
+<DEBUG> 22-Jan-2020::15:44:29.514 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusGen2SipAdaptor.fxs
+<DEBUG> 22-Jan-2020::15:44:29.520 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusGen2SipEmergency.fxs
+<DEBUG> 22-Jan-2020::15:44:29.521 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/sonusGen2Radius.fxs
+<DEBUG> 22-Jan-2020::15:44:29.524 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/sonusGen2EventLog.fxs
+<DEBUG> 22-Jan-2020::15:44:29.529 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/sonusGen2Ntp.fxs
+<DEBUG> 22-Jan-2020::15:44:29.531 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusGen2NrmCongestion.fxs
+<DEBUG> 22-Jan-2020::15:44:29.534 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusCallParamFilterGroupProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.535 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListDiameter.fxs
+<DEBUG> 22-Jan-2020::15:44:29.538 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListVirtualMediaGateway.fxs
+<DEBUG> 22-Jan-2020::15:44:29.546 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListZone.fxs
+<DEBUG> 22-Jan-2020::15:44:29.548 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListDsbc.fxs
+<DEBUG> 22-Jan-2020::15:44:29.549 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListOrca.fxs
+<DEBUG> 22-Jan-2020::15:44:29.553 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusToneAndAnncProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.554 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusIpSignalingProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.566 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusDmPmRule.fxs
+<DEBUG> 22-Jan-2020::15:44:29.571 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusMgmtIpInterface.fxs
+<DEBUG> 22-Jan-2020::15:44:29.573 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusGlobal.fxs
+<DEBUG> 22-Jan-2020::15:44:29.578 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusAddressContext.fxs
+<DEBUG> 22-Jan-2020::15:44:29.580 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusRtp.fxs
+<DEBUG> 22-Jan-2020::15:44:29.581 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusOmrRealm.fxs
+<DEBUG> 22-Jan-2020::15:44:29.581 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusPrefixProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.583 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusOrca.fxs
+<DEBUG> 22-Jan-2020::15:44:29.586 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListDsbcSigPort.fxs
+<DEBUG> 22-Jan-2020::15:44:29.587 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusMtrgClient.fxs
+<DEBUG> 22-Jan-2020::15:44:29.589 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusArsProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.590 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSharedCacPool.fxs
+<DEBUG> 22-Jan-2020::15:44:29.592 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSipDomain.fxs
+<DEBUG> 22-Jan-2020::15:44:29.592 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusCountry.fxs
+<DEBUG> 22-Jan-2020::15:44:29.593 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusEnumRequest.fxs
+<DEBUG> 22-Jan-2020::15:44:29.594 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusE911VpcDevice.fxs
+<DEBUG> 22-Jan-2020::15:44:29.595 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusDnsZone.fxs
+<DEBUG> 22-Jan-2020::15:44:29.596 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusPacketEncodingType.fxs
+<DEBUG> 22-Jan-2020::15:44:29.597 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusIpInterface.fxs
+<DEBUG> 22-Jan-2020::15:44:29.601 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusScript.fxs
+<DEBUG> 22-Jan-2020::15:44:29.601 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusDCServer.fxs
+<DEBUG> 22-Jan-2020::15:44:29.602 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusRealm.fxs
+<DEBUG> 22-Jan-2020::15:44:29.603 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusCodecEntry.fxs
+<DEBUG> 22-Jan-2020::15:44:29.608 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusDnsZoneLabel.fxs
+<DEBUG> 22-Jan-2020::15:44:29.609 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusDiameter.fxs
+<DEBUG> 22-Jan-2020::15:44:29.611 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNumberingPlan.fxs
+<DEBUG> 22-Jan-2020::15:44:29.612 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusDns.fxs
+<DEBUG> 22-Jan-2020::15:44:29.615 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusClassOfService.fxs
+<DEBUG> 22-Jan-2020::15:44:29.617 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusVirtualMediaGateway.fxs
+<DEBUG> 22-Jan-2020::15:44:29.624 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusPacketServiceProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.628 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusCarrier.fxs
+<DEBUG> 22-Jan-2020::15:44:29.629 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusZone.fxs
+<DEBUG> 22-Jan-2020::15:44:29.633 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusExt.fxs
+<DEBUG> 22-Jan-2020::15:44:29.635 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSipTrunkGroup.fxs
+<DEBUG> 22-Jan-2020::15:44:29.661 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSrsGroupProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.662 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusMonitoringProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.664 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusDsbc.fxs
+<DEBUG> 22-Jan-2020::15:44:29.666 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSipSigPort.fxs
+<DEBUG> 22-Jan-2020::15:44:29.672 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusDsbcSigPort.fxs
+<DEBUG> 22-Jan-2020::15:44:29.674 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSrsGroupGroup.fxs
+<DEBUG> 22-Jan-2020::15:44:29.675 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/tailf-common.fxs
+<DEBUG> 22-Jan-2020::15:44:29.676 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/tailf-acm.fxs
+<DEBUG> 22-Jan-2020::15:44:29.677 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/TRANSPORT-ADDRESS-MIB.fxs
+<DEBUG> 22-Jan-2020::15:44:29.677 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/SNMPv2-SMI.fxs
+<DEBUG> 22-Jan-2020::15:44:29.678 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/IPV6-TC.fxs
+<DEBUG> 22-Jan-2020::15:44:29.679 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/tailf-kicker.fxs
+<DEBUG> 22-Jan-2020::15:44:29.680 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusXrmMedia.fxs
+<DEBUG> 22-Jan-2020::15:44:29.681 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusVoipSubscriber.fxs
+<DEBUG> 22-Jan-2020::15:44:29.682 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusVm.fxs
+<DEBUG> 22-Jan-2020::15:44:29.683 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusTrmTrafficCtrl.fxs
+<DEBUG> 22-Jan-2020::15:44:29.684 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusTrafficControls.fxs
+<DEBUG> 22-Jan-2020::15:44:29.685 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusToneAsAnnouncementProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.686 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusTimeRangeProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.687 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusRelayPort.fxs
+<DEBUG> 22-Jan-2020::15:44:29.689 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/sonusSystemSwe.fxs
+<DEBUG> 22-Jan-2020::15:44:29.691 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSwe.fxs
+<DEBUG> 22-Jan-2020::15:44:29.692 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSubscriber.fxs
+<DEBUG> 22-Jan-2020::15:44:29.693 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/sonusSmi.fxs
+<DEBUG> 22-Jan-2020::15:44:29.694 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSlb.fxs
+<DEBUG> 22-Jan-2020::15:44:29.696 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSipTrunkGroupPerformanceStats.fxs
+<DEBUG> 22-Jan-2020::15:44:29.701 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSipSub.fxs
+<DEBUG> 22-Jan-2020::15:44:29.703 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSipSigControls.fxs
+<DEBUG> 22-Jan-2020::15:44:29.704 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSipPeerOverloadProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.705 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSipResponsePerformanceStats.fxs
+<DEBUG> 22-Jan-2020::15:44:29.706 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSipReg.fxs
+<DEBUG> 22-Jan-2020::15:44:29.711 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSipPeerPerformanceStats.fxs
+<DEBUG> 22-Jan-2020::15:44:29.719 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusGen2SipParamBasedAction.fxs
+<DEBUG> 22-Jan-2020::15:44:29.720 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSipCac.fxs
+<DEBUG> 22-Jan-2020::15:44:29.721 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSharedCacPoolStats.fxs
+<DEBUG> 22-Jan-2020::15:44:29.723 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/sonusServiceDiscovery.fxs
+<DEBUG> 22-Jan-2020::15:44:29.724 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusIpsec.fxs
+<DEBUG> 22-Jan-2020::15:44:29.728 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusIpsecControls.fxs
+<DEBUG> 22-Jan-2020::15:44:29.729 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusSbxDebug.fxs
+<DEBUG> 22-Jan-2020::15:44:29.730 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusRsyslogTlsProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.731 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusRoutingLabel.fxs
+<DEBUG> 22-Jan-2020::15:44:29.733 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusRoute.fxs
+<DEBUG> 22-Jan-2020::15:44:29.734 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusRelayStats.fxs
+<DEBUG> 22-Jan-2020::15:44:29.735 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusRelayCountStats.fxs
+<DEBUG> 22-Jan-2020::15:44:29.736 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusPolicyServer.fxs
+<DEBUG> 22-Jan-2020::15:44:29.738 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusPes.fxs
+<DEBUG> 22-Jan-2020::15:44:29.743 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusPathchkPath.fxs
+<DEBUG> 22-Jan-2020::15:44:29.745 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusOrcaSystem.fxs
+<DEBUG> 22-Jan-2020::15:44:29.746 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNumberTranslationCriteria.fxs
+<DEBUG> 22-Jan-2020::15:44:29.748 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNpaNxx.fxs
+<DEBUG> 22-Jan-2020::15:44:29.748 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusGen2NrmDtmftrigger.fxs
+<DEBUG> 22-Jan-2020::15:44:29.749 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusGen2NrmDsppad.fxs
+<DEBUG> 22-Jan-2020::15:44:29.750 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusGen2NrmDigits.fxs
+<DEBUG> 22-Jan-2020::15:44:29.752 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusGen2NrmCalltrace.fxs
+<DEBUG> 22-Jan-2020::15:44:29.755 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListXrmMedia.fxs
+<DEBUG> 22-Jan-2020::15:44:29.756 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListXHeaderProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.756 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListVoipSubscriber.fxs
+<DEBUG> 22-Jan-2020::15:44:29.757 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListTrmTrafficCtrl.fxs
+<DEBUG> 22-Jan-2020::15:44:29.758 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListTrap.fxs
+<DEBUG> 22-Jan-2020::15:44:29.758 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListTrafficFlowControlProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.759 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListTrafficControls.fxs
+<DEBUG> 22-Jan-2020::15:44:29.759 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListToneCodecEntry.fxs
+<DEBUG> 22-Jan-2020::15:44:29.760 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListToneAsAnnouncementProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.761 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListToneAndAnncProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.761 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListTlsProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.762 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListTimeRangeProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.763 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListTestCallNumberProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.764 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListRelayPort.fxs
+<DEBUG> 22-Jan-2020::15:44:29.764 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSystemSwe.fxs
+<DEBUG> 22-Jan-2020::15:44:29.766 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSurrogateRegistrationProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.767 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSubscriber.fxs
+<DEBUG> 22-Jan-2020::15:44:29.768 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListStiProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.768 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSrsGroupProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.769 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSrsGroupGroup.fxs
+<DEBUG> 22-Jan-2020::15:44:29.769 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSnmp.fxs
+<DEBUG> 22-Jan-2020::15:44:29.770 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSlb.fxs
+<DEBUG> 22-Jan-2020::15:44:29.772 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSipRecMetadataProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.773 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSipTrunkGroup.fxs
+<DEBUG> 22-Jan-2020::15:44:29.782 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSipTransparencyProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.783 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSipTrunkGroupPerformanceStats.fxs
+<DEBUG> 22-Jan-2020::15:44:29.789 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSipSub.fxs
+<DEBUG> 22-Jan-2020::15:44:29.791 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGen2SipVplmn.fxs
+<DEBUG> 22-Jan-2020::15:44:29.792 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSipToCpcCauseMapProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.793 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSipSigControls.fxs
+<DEBUG> 22-Jan-2020::15:44:29.794 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSipSecurityProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.794 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGen2SipRph.fxs
+<DEBUG> 22-Jan-2020::15:44:29.795 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSipPeerOverloadProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.796 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGen2SipJip.fxs
+<DEBUG> 22-Jan-2020::15:44:29.797 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSipInternalCauseMapProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.797 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGen2SipHplmn.fxs
+<DEBUG> 22-Jan-2020::15:44:29.798 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGen2SipFilter.fxs
+<DEBUG> 22-Jan-2020::15:44:29.798 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGen2SipEmergency.fxs
+<DEBUG> 22-Jan-2020::15:44:29.799 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListCpcToSipCauseMapProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.800 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSipCacProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.802 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSipArsProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.803 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGen2SipAdaptor.fxs
+<DEBUG> 22-Jan-2020::15:44:29.806 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSipSigPort.fxs
+<DEBUG> 22-Jan-2020::15:44:29.811 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSipResponsePerformanceStats.fxs
+<DEBUG> 22-Jan-2020::15:44:29.812 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSipReg.fxs
+<DEBUG> 22-Jan-2020::15:44:29.817 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSipPeerPerformanceStats.fxs
+<DEBUG> 22-Jan-2020::15:44:29.825 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSipParamFilterProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.826 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSipJJ9030InterworkingProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.826 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSipDomain.fxs
+<DEBUG> 22-Jan-2020::15:44:29.827 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSipCac.fxs
+<DEBUG> 22-Jan-2020::15:44:29.828 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSipAdaptiveTransparencyProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.829 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSignalingQosKpiProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.829 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSignalingProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.830 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSharedCacPool.fxs
+<DEBUG> 22-Jan-2020::15:44:29.832 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSharedCacPoolStats.fxs
+<DEBUG> 22-Jan-2020::15:44:29.833 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListServiceDiscovery.fxs
+<DEBUG> 22-Jan-2020::15:44:29.834 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGen2Security.fxs
+<DEBUG> 22-Jan-2020::15:44:29.837 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListIpsec.fxs
+<DEBUG> 22-Jan-2020::15:44:29.839 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListIpsecProfiles.fxs
+<DEBUG> 22-Jan-2020::15:44:29.840 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListIpsecControls.fxs
+<DEBUG> 22-Jan-2020::15:44:29.841 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListSctpProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.842 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListScript.fxs
+<DEBUG> 22-Jan-2020::15:44:29.842 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListRsyslogTlsProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.843 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListRtp.fxs
+<DEBUG> 22-Jan-2020::15:44:29.843 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListRoutingLabel.fxs
+<DEBUG> 22-Jan-2020::15:44:29.844 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListRoute.fxs
+<DEBUG> 22-Jan-2020::15:44:29.845 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListRetryProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.845 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListRelayStats.fxs
+<DEBUG> 22-Jan-2020::15:44:29.846 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListRelayProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.847 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListRelayCountStats.fxs
+<DEBUG> 22-Jan-2020::15:44:29.848 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListRealm.fxs
+<DEBUG> 22-Jan-2020::15:44:29.848 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListQSbcCdr.fxs
+<DEBUG> 22-Jan-2020::15:44:29.849 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListPsxScriptProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.849 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListPrivacyProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.850 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListPrefixProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.851 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListPort.fxs
+<DEBUG> 22-Jan-2020::15:44:29.855 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListPolicyServer.fxs
+<DEBUG> 22-Jan-2020::15:44:29.857 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListPes.fxs
+<DEBUG> 22-Jan-2020::15:44:29.863 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListPathchkProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.864 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListPathchkPath.fxs
+<DEBUG> 22-Jan-2020::15:44:29.864 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListPacketServiceProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.865 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListPacketEncodingType.fxs
+<DEBUG> 22-Jan-2020::15:44:29.866 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListOvldProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.867 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListOrcaSystem.fxs
+<DEBUG> 22-Jan-2020::15:44:29.868 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListNumberingPlan.fxs
+<DEBUG> 22-Jan-2020::15:44:29.868 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListNumberTranslationCriteria.fxs
+<DEBUG> 22-Jan-2020::15:44:29.869 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListNumberGlobalizeProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.870 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListNpaNxx.fxs
+<DEBUG> 22-Jan-2020::15:44:29.870 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGen2NrmTone.fxs
+<DEBUG> 22-Jan-2020::15:44:29.871 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGen2NrmDtmftrigger.fxs
+<DEBUG> 22-Jan-2020::15:44:29.872 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListDspUsagePerformanceStats.fxs
+<DEBUG> 22-Jan-2020::15:44:29.880 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGen2NrmDsppad.fxs
+<DEBUG> 22-Jan-2020::15:44:29.880 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGen2NrmDiscTreat.fxs
+<DEBUG> 22-Jan-2020::15:44:29.881 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGen2NrmDigits.fxs
+<DEBUG> 22-Jan-2020::15:44:29.882 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGen2NrmCrankback.fxs
+<DEBUG> 22-Jan-2020::15:44:29.883 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGen2NrmCongestion.fxs
+<DEBUG> 22-Jan-2020::15:44:29.886 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGen2NrmCalltrace.fxs
+<DEBUG> 22-Jan-2020::15:44:29.888 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGen2NrmAnnouncement.fxs
+<DEBUG> 22-Jan-2020::15:44:29.888 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListNNIProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.889 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListNpStats.fxs
+<DEBUG> 22-Jan-2020::15:44:29.891 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListMtrgServer.fxs
+<DEBUG> 22-Jan-2020::15:44:29.892 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListMtrgClient.fxs
+<DEBUG> 22-Jan-2020::15:44:29.893 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListMonitoringProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.894 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListMonitor.fxs
+<DEBUG> 22-Jan-2020::15:44:29.897 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListMgmtIpInterface.fxs
+<DEBUG> 22-Jan-2020::15:44:29.898 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListMetaVar.fxs
+<DEBUG> 22-Jan-2020::15:44:29.899 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListMediaQosKpiProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.899 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListMgc.fxs
+<DEBUG> 22-Jan-2020::15:44:29.900 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListMasterTrunkGroupConnPort.fxs
+<DEBUG> 22-Jan-2020::15:44:29.904 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListLwresd.fxs
+<DEBUG> 22-Jan-2020::15:44:29.905 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListLwresdProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.905 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListLvm.fxs
+<DEBUG> 22-Jan-2020::15:44:29.908 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListLoadBalancingService.fxs
+<DEBUG> 22-Jan-2020::15:44:29.910 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListLi.fxs
+<DEBUG> 22-Jan-2020::15:44:29.913 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListJsrcServer.fxs
+<DEBUG> 22-Jan-2020::15:44:29.914 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListIsupSignalingProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.915 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListIpmProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.916 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListIpAcl.fxs
+<DEBUG> 22-Jan-2020::15:44:29.919 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListIpSignalingProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.920 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListIpSignalingPeerGroup.fxs
+<DEBUG> 22-Jan-2020::15:44:29.920 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListIpRoute.fxs
+<DEBUG> 22-Jan-2020::15:44:29.921 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListIpPeer.fxs
+<DEBUG> 22-Jan-2020::15:44:29.925 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListIoiToCarrierCodeMappingProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.925 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListHpcCallProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.926 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListHoliday.fxs
+<DEBUG> 22-Jan-2020::15:44:29.927 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListHaPort.fxs
+<DEBUG> 22-Jan-2020::15:44:29.928 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListH323TrunkGroup.fxs
+<DEBUG> 22-Jan-2020::15:44:29.929 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListH323SigTimers.fxs
+<DEBUG> 22-Jan-2020::15:44:29.930 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListH323SigPort.fxs
+<DEBUG> 22-Jan-2020::15:44:29.932 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListH248SigPort.fxs
+<DEBUG> 22-Jan-2020::15:44:29.933 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGwTrunkGroup.fxs
+<DEBUG> 22-Jan-2020::15:44:29.934 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGwSigTimers.fxs
+<DEBUG> 22-Jan-2020::15:44:29.935 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGwSigPort.fxs
+<DEBUG> 22-Jan-2020::15:44:29.937 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGtProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.937 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGlobalTrunkGroup.fxs
+<DEBUG> 22-Jan-2020::15:44:29.939 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGenericCodec.fxs
+<DEBUG> 22-Jan-2020::15:44:29.940 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListOmrRealm.fxs
+<DEBUG> 22-Jan-2020::15:44:29.940 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGen2Radius.fxs
+<DEBUG> 22-Jan-2020::15:44:29.942 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGen2Ntp.fxs
+<DEBUG> 22-Jan-2020::15:44:29.944 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGen2Ipm.fxs
+<DEBUG> 22-Jan-2020::15:44:29.961 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListIpProtocol.fxs
+<DEBUG> 22-Jan-2020::15:44:29.966 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListIpInterface.fxs
+<DEBUG> 22-Jan-2020::15:44:29.969 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGlobalDns.fxs
+<DEBUG> 22-Jan-2020::15:44:29.969 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListGen2EventLog.fxs
+<DEBUG> 22-Jan-2020::15:44:29.974 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListDns.fxs
+<DEBUG> 22-Jan-2020::15:44:29.976 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListActiveCallDetail.fxs
+<DEBUG> 22-Jan-2020::15:44:29.990 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListAccounting.fxs
+<DEBUG> 22-Jan-2020::15:44:29.991 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListFilterSipSrc.fxs
+<DEBUG> 22-Jan-2020::15:44:29.993 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListFeatureControlProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.993 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListEnum.fxs
+<DEBUG> 22-Jan-2020::15:44:29.994 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListEnumRequest.fxs
+<DEBUG> 22-Jan-2020::15:44:29.994 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListEnhancedDblProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.995 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListEms.fxs
+<DEBUG> 22-Jan-2020::15:44:29.996 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListEmaTlsProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.997 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListElemRoutingPriority.fxs
+<DEBUG> 22-Jan-2020::15:44:29.997 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListE911.fxs
+<DEBUG> 22-Jan-2020::15:44:29.998 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListE911VpcDevice.fxs
+<DEBUG> 22-Jan-2020::15:44:29.998 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListE164Profile.fxs
+<DEBUG> 22-Jan-2020::15:44:29.999 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListDtlsStatistics.fxs
+<DEBUG> 22-Jan-2020::15:44:30.001 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListDtlsProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:30.001 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListDscpProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:30.002 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListDsbcSigTimers.fxs
+<DEBUG> 22-Jan-2020::15:44:30.003 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListDrmResourcePad.fxs
+<DEBUG> 22-Jan-2020::15:44:30.004 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListDrmMediaProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:30.005 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListDrmDspStatus.fxs
+<DEBUG> 22-Jan-2020::15:44:30.012 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListDnsZone.fxs
+<DEBUG> 22-Jan-2020::15:44:30.013 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListDnsZoneLabel.fxs
+<DEBUG> 22-Jan-2020::15:44:30.014 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListDmPmRule.fxs
+<DEBUG> 22-Jan-2020::15:44:30.015 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListDmPmCriteria.fxs
+<DEBUG> 22-Jan-2020::15:44:30.017 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListDiamSigControls.fxs
+<DEBUG> 22-Jan-2020::15:44:30.018 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListDCServer.fxs
+<DEBUG> 22-Jan-2020::15:44:30.018 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListDbl.fxs
+<DEBUG> 22-Jan-2020::15:44:30.021 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListDblProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:30.021 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListDbSyncStatus.fxs
+<DEBUG> 22-Jan-2020::15:44:30.022 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListCryptoSuiteProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:30.022 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListCountry.fxs
+<DEBUG> 22-Jan-2020::15:44:30.023 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListCodecRoutingPriority.fxs
+<DEBUG> 22-Jan-2020::15:44:30.024 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListCodecListProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:30.024 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListCodecEntry.fxs
+<DEBUG> 22-Jan-2020::15:44:30.026 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListCluster.fxs
+<DEBUG> 22-Jan-2020::15:44:30.027 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListClassOfService.fxs
+<DEBUG> 22-Jan-2020::15:44:30.027 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListCdrServer.fxs
+<DEBUG> 22-Jan-2020::15:44:30.029 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListCarrier.fxs
+<DEBUG> 22-Jan-2020::15:44:30.029 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListCarrierCodeToIoiMappingProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:30.030 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListCalledPrefixMatchProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:30.031 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListCallRecordingCriteria.fxs
+<DEBUG> 22-Jan-2020::15:44:30.032 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListCallParamFilterProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:30.033 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListCallParamFilterGroupProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:30.033 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListATProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:30.034 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListArsProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:30.035 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListAorGroupProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:30.035 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListAnnouncements.fxs
+<DEBUG> 22-Jan-2020::15:44:30.037 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListAlarmMgr.fxs
+<DEBUG> 22-Jan-2020::15:44:30.038 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListAdService.fxs
+<DEBUG> 22-Jan-2020::15:44:30.039 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListAdProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:30.040 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListAdAttrMappingProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:30.041 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListActiveCall.fxs
+<DEBUG> 22-Jan-2020::15:44:30.058 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListAddressContextMetadata.fxs
+<DEBUG> 22-Jan-2020::15:44:30.059 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNodeListAaa.fxs
+<DEBUG> 22-Jan-2020::15:44:30.061 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusNpStats.fxs
+<DEBUG> 22-Jan-2020::15:44:30.063 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusMtrgServer.fxs
+<DEBUG> 22-Jan-2020::15:44:30.065 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusMonitor.fxs
+<DEBUG> 22-Jan-2020::15:44:30.068 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusMgc.fxs
+<DEBUG> 22-Jan-2020::15:44:30.069 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusMasterTrunkGroupConnPort.fxs
+<DEBUG> 22-Jan-2020::15:44:30.074 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusLwresd.fxs
+<DEBUG> 22-Jan-2020::15:44:30.075 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusLwresdProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:30.077 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusLvm.fxs
+<DEBUG> 22-Jan-2020::15:44:30.080 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusLoadBalancingService.fxs
+<DEBUG> 22-Jan-2020::15:44:30.083 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusLi.fxs
+<DEBUG> 22-Jan-2020::15:44:30.088 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusJsrcServer.fxs
+<DEBUG> 22-Jan-2020::15:44:30.090 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusIpAcl.fxs
+<DEBUG> 22-Jan-2020::15:44:30.093 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusIpRoute.fxs
+<DEBUG> 22-Jan-2020::15:44:30.094 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusIpPeer.fxs
+<DEBUG> 22-Jan-2020::15:44:30.098 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusIoiToCarrierCodeMappingProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:30.099 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusHoliday.fxs
+<DEBUG> 22-Jan-2020::15:44:30.100 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusH323TrunkGroup.fxs
+<DEBUG> 22-Jan-2020::15:44:30.105 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusH323SigTimers.fxs
+<DEBUG> 22-Jan-2020::15:44:30.106 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusH323SigPort.fxs
+<DEBUG> 22-Jan-2020::15:44:30.108 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusH248SigPort.fxs
+<DEBUG> 22-Jan-2020::15:44:30.110 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusGwTrunkGroup.fxs
+<DEBUG> 22-Jan-2020::15:44:30.113 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusGwSigTimers.fxs
+<DEBUG> 22-Jan-2020::15:44:30.114 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusGwSigPort.fxs
+<DEBUG> 22-Jan-2020::15:44:30.116 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusGlobalTrunkGroup.fxs
+<DEBUG> 22-Jan-2020::15:44:30.118 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusGenericCodec.fxs
+<DEBUG> 22-Jan-2020::15:44:30.120 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusGen2Ipm.fxs
+<DEBUG> 22-Jan-2020::15:44:30.134 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusIpProtocol.fxs
+<DEBUG> 22-Jan-2020::15:44:30.138 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusGlobalDns.fxs
+<DEBUG> 22-Jan-2020::15:44:30.139 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusActiveCallDetail.fxs
+<DEBUG> 22-Jan-2020::15:44:30.150 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusFilterSipSrc.fxs
+<DEBUG> 22-Jan-2020::15:44:30.152 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/sonusExtensions.fxs
+<DEBUG> 22-Jan-2020::15:44:30.152 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusEnum.fxs
+<DEBUG> 22-Jan-2020::15:44:30.153 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/sonusEms.fxs
+<DEBUG> 22-Jan-2020::15:44:30.154 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusEmaTlsProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:30.155 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusE911.fxs
+<DEBUG> 22-Jan-2020::15:44:30.156 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusDtlsStatistics.fxs
+<DEBUG> 22-Jan-2020::15:44:30.158 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusDsbcSigTimers.fxs
+<DEBUG> 22-Jan-2020::15:44:30.159 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusDrmResourcePad.fxs
+<DEBUG> 22-Jan-2020::15:44:30.161 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusDrmMediaProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:30.162 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusDrmDspStatus.fxs
+<DEBUG> 22-Jan-2020::15:44:30.168 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusDiamSigControls.fxs
+<DEBUG> 22-Jan-2020::15:44:30.169 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusDbl.fxs
+<DEBUG> 22-Jan-2020::15:44:30.171 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusDbSyncStatus.fxs
+<DEBUG> 22-Jan-2020::15:44:30.172 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusCodecRoutingPriority.fxs
+<DEBUG> 22-Jan-2020::15:44:30.173 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusCluster.fxs
+<DEBUG> 22-Jan-2020::15:44:30.176 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusCarrierCodeToIoiMappingProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:30.177 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusCallRecordingCriteria.fxs
+<DEBUG> 22-Jan-2020::15:44:30.178 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusAnnouncements.fxs
+<DEBUG> 22-Jan-2020::15:44:30.179 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/sonusAlarmMgr.fxs
+<DEBUG> 22-Jan-2020::15:44:30.181 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusAdService.fxs
+<DEBUG> 22-Jan-2020::15:44:30.182 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusAdProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:30.183 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusAdAttrMappingProfile.fxs
+<DEBUG> 22-Jan-2020::15:44:30.184 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusActiveCall.fxs
+<DEBUG> 22-Jan-2020::15:44:30.199 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/sonusAddressContextMetadata.fxs
+<DEBUG> 22-Jan-2020::15:44:30.200 bf060 confd[36529]: - Loading file /opt/sonus/sbx/fxs/common/IANAifType.fxs
+<DEBUG> 22-Jan-2020::15:44:30.334 bf060 confd[36529]: - Loading file /opt/sonus/sbx/ccl/sonusConfd.ccl
+<INFO> 22-Jan-2020::15:44:30.578 bf060 confd[36529]: - Starting to listen for Internal IPC on 127.0.0.1:4565
+<INFO> 22-Jan-2020::15:44:30.580 bf060 confd[36529]: - Starting to listen for Internal IPC on 169.254.99.1:4565
+<INFO> 22-Jan-2020::15:44:31.398 bf060 confd[36529]: - ConfD phase0 started
+<INFO> 22-Jan-2020::15:44:40.041 bf060 confd[36529]: - ConfD phase1 started
+<INFO> 22-Jan-2020::15:44:48.172 bf060 confd[36529]: - Starting to listen for NETCONF TCP on 127.0.0.1:2023
+<INFO> 22-Jan-2020::15:44:48.181 bf060 confd[36529]: - Starting to listen for NETCONF TCP on ::1:2023
+<INFO> 22-Jan-2020::15:44:53.815 bf060 confd[36529]: - ConfD started vsn: 6.7.2.1
+<INFO> 22-Jan-2020::15:44:58.993 bf060 confd[36529]: - Reloading daemon configuration.
+<DEBUG> 22-Jan-2020::15:44:58.994 bf060 confd[36529]: - Loading file /opt/sonus/sbx/tailf/confd.conf
+<INFO> 22-Jan-2020::15:44:58.994 bf060 confd[36529]: - Consulting daemon configuration file /opt/sonus/sbx/tailf/confd.conf
+<INFO> 22-Jan-2020::15:44:59.038 bf060 confd[36529]: - Writing daemon log to /opt/sonus/sbx/tailf/var/confd/log/confd.log
+<INFO> 22-Jan-2020::15:44:59.038 bf060 confd[36529]: - Writing NETCONF log to /opt/sonus/sbx/tailf/var/confd/log/netconf.log
+<INFO> 22-Jan-2020::15:44:59.038 bf060 confd[36529]: - Writing SNMP log to /opt/sonus/sbx/tailf/var/confd/log/snmp.log
+<INFO> 22-Jan-2020::15:44:59.039 bf060 confd[36529]: - Writing audit log to /opt/sonus/sbx/tailf/var/confd/log/audit.log
+<INFO> 22-Jan-2020::15:44:59.039 bf060 confd[36529]: - Writing developer log to /opt/sonus/sbx/tailf/var/confd/log/devel.log
+<INFO> 22-Jan-2020::15:44:59.385 bf060 confd[36529]: - Reloading daemon configuration.
+<DEBUG> 22-Jan-2020::15:44:59.386 bf060 confd[36529]: - Loading file /opt/sonus/sbx/tailf/confd.conf
+<INFO> 22-Jan-2020::15:44:59.386 bf060 confd[36529]: - Consulting daemon configuration file /opt/sonus/sbx/tailf/confd.conf
+<INFO> 22-Jan-2020::15:44:59.430 bf060 confd[36529]: - Writing daemon log to /opt/sonus/sbx/tailf/var/confd/log/confd.log
+<INFO> 22-Jan-2020::15:44:59.430 bf060 confd[36529]: - Writing NETCONF log to /opt/sonus/sbx/tailf/var/confd/log/netconf.log
+<INFO> 22-Jan-2020::15:44:59.430 bf060 confd[36529]: - Writing SNMP log to /opt/sonus/sbx/tailf/var/confd/log/snmp.log
+<INFO> 22-Jan-2020::15:44:59.430 bf060 confd[36529]: - Writing audit log to /opt/sonus/sbx/tailf/var/confd/log/audit.log
+<INFO> 22-Jan-2020::15:44:59.430 bf060 confd[36529]: - Writing developer log to /opt/sonus/sbx/tailf/var/confd/log/devel.log
+<INFO> 22-Jan-2020::15:45:01.025 bf060 confd[36529]: - Reloading daemon configuration.
+<DEBUG> 22-Jan-2020::15:45:01.026 bf060 confd[36529]: - Loading file /opt/sonus/sbx/tailf/confd.conf
+<INFO> 22-Jan-2020::15:45:01.026 bf060 confd[36529]: - Consulting daemon configuration file /opt/sonus/sbx/tailf/confd.conf
+<INFO> 22-Jan-2020::15:45:01.068 bf060 confd[36529]: - Writing daemon log to /opt/sonus/sbx/tailf/var/confd/log/confd.log
+<INFO> 22-Jan-2020::15:45:01.068 bf060 confd[36529]: - Writing NETCONF log to /opt/sonus/sbx/tailf/var/confd/log/netconf.log
+<INFO> 22-Jan-2020::15:45:01.068 bf060 confd[36529]: - Writing SNMP log to /opt/sonus/sbx/tailf/var/confd/log/snmp.log
+<INFO> 22-Jan-2020::15:45:01.069 bf060 confd[36529]: - Writing audit log to /opt/sonus/sbx/tailf/var/confd/log/audit.log
+<INFO> 22-Jan-2020::15:45:01.069 bf060 confd[36529]: - Writing developer log to /opt/sonus/sbx/tailf/var/confd/log/devel.log
+<INFO> 22-Jan-2020::15:45:04.611 bf060 confd[36529]: - Reloading daemon configuration.
+<DEBUG> 22-Jan-2020::15:45:04.611 bf060 confd[36529]: - Loading file /opt/sonus/sbx/tailf/confd.conf
+<INFO> 22-Jan-2020::15:45:04.611 bf060 confd[36529]: - Consulting daemon configuration file /opt/sonus/sbx/tailf/confd.conf
+<INFO> 22-Jan-2020::15:45:04.657 bf060 confd[36529]: - Writing daemon log to /opt/sonus/sbx/tailf/var/confd/log/confd.log
+<INFO> 22-Jan-2020::15:45:04.657 bf060 confd[36529]: - Writing NETCONF log to /opt/sonus/sbx/tailf/var/confd/log/netconf.log
+<INFO> 22-Jan-2020::15:45:04.657 bf060 confd[36529]: - Writing SNMP log to /opt/sonus/sbx/tailf/var/confd/log/snmp.log
+<INFO> 22-Jan-2020::15:45:04.658 bf060 confd[36529]: - Writing audit log to /opt/sonus/sbx/tailf/var/confd/log/audit.log
+<INFO> 22-Jan-2020::15:45:04.658 bf060 confd[36529]: - Writing developer log to /opt/sonus/sbx/tailf/var/confd/log/devel.log
+<INFO> 22-Jan-2020::15:45:05.764 bf060 confd[36529]: - Reloading daemon configuration.
+<DEBUG> 22-Jan-2020::15:45:05.764 bf060 confd[36529]: - Loading file /opt/sonus/sbx/tailf/confd.conf
+<INFO> 22-Jan-2020::15:45:05.765 bf060 confd[36529]: - Consulting daemon configuration file /opt/sonus/sbx/tailf/confd.conf
+<INFO> 22-Jan-2020::15:45:05.807 bf060 confd[36529]: - Writing daemon log to /opt/sonus/sbx/tailf/var/confd/log/confd.log
+<INFO> 22-Jan-2020::15:45:05.807 bf060 confd[36529]: - Writing NETCONF log to /opt/sonus/sbx/tailf/var/confd/log/netconf.log
+<INFO> 22-Jan-2020::15:45:05.807 bf060 confd[36529]: - Writing SNMP log to /opt/sonus/sbx/tailf/var/confd/log/snmp.log
+<INFO> 22-Jan-2020::15:45:05.808 bf060 confd[36529]: - Writing audit log to /opt/sonus/sbx/tailf/var/confd/log/audit.log
+<INFO> 22-Jan-2020::15:45:05.808 bf060 confd[36529]: - Writing developer log to /opt/sonus/sbx/tailf/var/confd/log/devel.log
+<INFO> 22-Jan-2020::15:45:07.458 bf060 confd[36529]: - Reloading daemon configuration.
+<DEBUG> 22-Jan-2020::15:45:07.458 bf060 confd[36529]: - Loading file /opt/sonus/sbx/tailf/confd.conf
+<INFO> 22-Jan-2020::15:45:07.458 bf060 confd[36529]: - Consulting daemon configuration file /opt/sonus/sbx/tailf/confd.conf
+<INFO> 22-Jan-2020::15:45:07.502 bf060 confd[36529]: - Writing daemon log to /opt/sonus/sbx/tailf/var/confd/log/confd.log
+<INFO> 22-Jan-2020::15:45:07.502 bf060 confd[36529]: - Writing NETCONF log to /opt/sonus/sbx/tailf/var/confd/log/netconf.log
+<INFO> 22-Jan-2020::15:45:07.502 bf060 confd[36529]: - Writing SNMP log to /opt/sonus/sbx/tailf/var/confd/log/snmp.log
+<INFO> 22-Jan-2020::15:45:07.502 bf060 confd[36529]: - Writing audit log to /opt/sonus/sbx/tailf/var/confd/log/audit.log
+<INFO> 22-Jan-2020::15:45:07.502 bf060 confd[36529]: - Writing developer log to /opt/sonus/sbx/tailf/var/confd/log/devel.log
+<INFO> 22-Jan-2020::15:45:20.655 bf060 confd[36529]: - Reloading daemon configuration.
+<DEBUG> 22-Jan-2020::15:45:20.655 bf060 confd[36529]: - Loading file /opt/sonus/sbx/tailf/confd.conf
+<INFO> 22-Jan-2020::15:45:20.655 bf060 confd[36529]: - Consulting daemon configuration file /opt/sonus/sbx/tailf/confd.conf
+<INFO> 22-Jan-2020::15:45:20.695 bf060 confd[36529]: - Writing daemon log to /opt/sonus/sbx/tailf/var/confd/log/confd.log
+<INFO> 22-Jan-2020::15:45:20.696 bf060 confd[36529]: - Writing NETCONF log to /opt/sonus/sbx/tailf/var/confd/log/netconf.log
+<INFO> 22-Jan-2020::15:45:20.696 bf060 confd[36529]: - Writing SNMP log to /opt/sonus/sbx/tailf/var/confd/log/snmp.log
+<INFO> 22-Jan-2020::15:45:20.696 bf060 confd[36529]: - Writing audit log to /opt/sonus/sbx/tailf/var/confd/log/audit.log
+<INFO> 22-Jan-2020::15:45:20.696 bf060 confd[36529]: - Writing developer log to /opt/sonus/sbx/tailf/var/confd/log/devel.log
+<INFO> 22-Jan-2020::15:46:18.931 bf060 confd[36529]: - Reloading daemon configuration.
+<DEBUG> 22-Jan-2020::15:46:18.931 bf060 confd[36529]: - Loading file /opt/sonus/sbx/tailf/confd.conf
+<INFO> 22-Jan-2020::15:46:18.932 bf060 confd[36529]: - Consulting daemon configuration file /opt/sonus/sbx/tailf/confd.conf
+<INFO> 22-Jan-2020::15:46:18.981 bf060 confd[36529]: - Starting to listen for WebUI TCP on 127.0.0.1:8008
+<INFO> 22-Jan-2020::15:46:18.981 bf060 confd[36529]: - Starting to listen for WebUI TCP on ::1:8008
+<INFO> 22-Jan-2020::15:46:19.002 bf060 confd[36529]: - Writing daemon log to /opt/sonus/sbx/tailf/var/confd/log/confd.log
+<INFO> 22-Jan-2020::15:46:19.002 bf060 confd[36529]: - Writing NETCONF log to /opt/sonus/sbx/tailf/var/confd/log/netconf.log
+<INFO> 22-Jan-2020::15:46:19.002 bf060 confd[36529]: - Writing SNMP log to /opt/sonus/sbx/tailf/var/confd/log/snmp.log
+<INFO> 22-Jan-2020::15:46:19.002 bf060 confd[36529]: - Writing audit log to /opt/sonus/sbx/tailf/var/confd/log/audit.log
+<INFO> 22-Jan-2020::15:46:19.002 bf060 confd[36529]: - Writing developer log to /opt/sonus/sbx/tailf/var/confd/log/devel.log
+<DEBUG> 22-Jan-2020::15:46:19.127 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/tailf/lib/confd/lib/snmp/snmp/priv/mibs/SNMPv2-MIB
+<INFO> 22-Jan-2020::15:46:19.366 bf060 confd[36529]: - Starting to listen for SNMP UDP on 0.0.0.0:161
+<INFO> 22-Jan-2020::15:46:19.387 bf060 confd[36529]: - Starting to listen for SNMP UDP on :::161
+<DEBUG> 22-Jan-2020::15:46:19.442 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/tailf/lib/confd/lib/snmp/snmp/priv/mibs/SNMP-COMMUNITY-MIB.bin
+<DEBUG> 22-Jan-2020::15:46:19.445 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/tailf/lib/confd/lib/snmp/snmp/priv/mibs/SNMP-VIEW-BASED-ACM-MIB.bin
+<DEBUG> 22-Jan-2020::15:46:19.447 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/tailf/lib/confd/lib/snmp/snmp/priv/mibs/SNMP-USER-BASED-SM-MIB.bin
+<DEBUG> 22-Jan-2020::15:46:19.449 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/tailf/lib/confd/lib/snmp/snmp/priv/mibs/SNMP-TARGET-MIB.bin
+<DEBUG> 22-Jan-2020::15:46:19.451 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/tailf/lib/confd/lib/snmp/snmp/priv/mibs/SNMP-NOTIFICATION-MIB.bin
+<DEBUG> 22-Jan-2020::15:46:19.453 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/SONUS-SMI.bin
+<DEBUG> 22-Jan-2020::15:46:19.454 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/SONUS-COMMON-TC.bin
+<DEBUG> 22-Jan-2020::15:46:19.455 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/SONUS-COMMON-TRAP-MIB.bin
+<DEBUG> 22-Jan-2020::15:46:19.465 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/SONUS-SYSTEM-MIB.bin
+<DEBUG> 22-Jan-2020::15:46:19.468 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/SONUS-GEN2-NTP-SERVICES-MIB.bin
+<DEBUG> 22-Jan-2020::15:46:19.472 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/SONUS-GEN2-EVENT-LOG-MIB.bin
+<DEBUG> 22-Jan-2020::15:46:19.474 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/SONUS-HA-MIB.bin
+<DEBUG> 22-Jan-2020::15:46:19.475 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/SONUS-CDR-SERVER-MIB.bin
+<DEBUG> 22-Jan-2020::15:46:19.504 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/HORNET-BASE-TRAPS-MIB.bin
+<DEBUG> 22-Jan-2020::15:46:19.556 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/SONUS-ADDRESS-CONTEXT.bin
+<DEBUG> 22-Jan-2020::15:46:19.558 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/SONUS-MGMT-IP-INTERFACE.bin
+<DEBUG> 22-Jan-2020::15:46:19.563 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/SONUS-PORT.bin
+<DEBUG> 22-Jan-2020::15:46:19.567 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/CONNEXIP-TRAPS-MIB.bin
+<DEBUG> 22-Jan-2020::15:46:19.610 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/SONUS-SBX-TRAP-MIB.bin
+<DEBUG> 22-Jan-2020::15:46:19.615 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/SONUS-SBX-POLICY-SERVER-TRAP-MIB.bin
+<DEBUG> 22-Jan-2020::15:46:19.622 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/SONUS-NODE-RESOURCES-DSPUSAGE.bin
+<DEBUG> 22-Jan-2020::15:46:19.659 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/SONUS-GLOBAL-OBJECTS.bin
+<DEBUG> 22-Jan-2020::15:46:19.662 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/SONUS-NODE-RESOURCES-CONGESTION.bin
+<DEBUG> 22-Jan-2020::15:46:19.672 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/SONUS-GEN2-IPM.bin
+<DEBUG> 22-Jan-2020::15:46:19.680 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/SONUS-DRM-DSPSTATUS.bin
+<DEBUG> 22-Jan-2020::15:46:19.684 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/standard/IF-MIB.bin
+<DEBUG> 22-Jan-2020::15:46:19.687 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/SONUS-ALARM-MGR.bin
+<DEBUG> 22-Jan-2020::15:46:19.688 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/SONUS-GEN2-PROFILES-MIB.bin
+<DEBUG> 22-Jan-2020::15:46:19.691 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/SONUS-GEN2-RADIUS-MIB.bin
+<DEBUG> 22-Jan-2020::15:46:19.693 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/SONUS-LICENSE-MIB.bin
+<DEBUG> 22-Jan-2020::15:46:19.695 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/SONUS-ANNOUNCEMENTS-STATUS.bin
+<DEBUG> 22-Jan-2020::15:46:19.699 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/SONUS-LOAD-BALANCING-SERVICE-STATUS.bin
+<DEBUG> 22-Jan-2020::15:46:19.702 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/SONUS-NETWORK-PROCESSOR-STATS.bin
+<DEBUG> 22-Jan-2020::15:46:19.704 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/SONUS-SWE.bin
+<DEBUG> 22-Jan-2020::15:46:19.711 bf060 confd[36529]: - Loading MIB: /opt/sonus/sbx/mib/SONUS-VMG.bin
+<INFO> 22-Jan-2020::15:46:20.245 bf060 confd[36529]: - Reloading daemon configuration.
+<DEBUG> 22-Jan-2020::15:46:20.245 bf060 confd[36529]: - Loading file /opt/sonus/sbx/tailf/confd.conf
+<INFO> 22-Jan-2020::15:46:20.246 bf060 confd[36529]: - Consulting daemon configuration file /opt/sonus/sbx/tailf/confd.conf
+<INFO> 22-Jan-2020::15:46:20.318 bf060 confd[36529]: - Writing daemon log to /opt/sonus/sbx/tailf/var/confd/log/confd.log
+<INFO> 22-Jan-2020::15:46:20.318 bf060 confd[36529]: - Writing NETCONF log to /opt/sonus/sbx/tailf/var/confd/log/netconf.log
+<INFO> 22-Jan-2020::15:46:20.318 bf060 confd[36529]: - Writing SNMP log to /opt/sonus/sbx/tailf/var/confd/log/snmp.log
+<INFO> 22-Jan-2020::15:46:20.318 bf060 confd[36529]: - Writing audit log to /opt/sonus/sbx/tailf/var/confd/log/audit.log
+<INFO> 22-Jan-2020::15:46:20.318 bf060 confd[36529]: - Writing developer log to /opt/sonus/sbx/tailf/var/confd/log/devel.log

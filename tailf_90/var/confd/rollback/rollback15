@@ -1,0 +1,19 @@
+# Created by: admin
+# Date: 2020-01-22 09:38:48
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10015
+
+addressContext default {
+    zone ZONE_IAD {
+        sipTrunkGroup TG_SIPART_IAD {
+            policy {
+                signaling {
+                    ipSignalingProfile DEFAULT_SIP;
+                }
+             }
+         }
+     }
+ }

@@ -1,0 +1,2468 @@
+{
+  "data": {
+    "sonusAddressContext:addressContext": [
+      {
+        "name": "default",
+        "sonusIpInterface:ipInterfaceGroup": [
+          {
+            "name": "TOT_EXT_IPIG",
+            "ipsec": "disabled",
+            "ipInterface": [
+              {
+                "name": "IPIF1_224",
+                "ceName": "SSBCTOT01",
+                "portName": "pkt1",
+                "ipAddress": "172.31.88.57",
+                "prefix": 29,
+                "mode": "outOfService",
+                "action": "dryUp",
+                "dryupTimeout": 60,
+                "state": "disabled",
+                "vlanTag": 224
+              },
+              {
+                "name": "IPIF1_555",
+                "ceName": "SSBCTOT01",
+                "portName": "pkt1",
+                "ipAddress": "172.30.157.254",
+                "prefix": 24,
+                "mode": "inService",
+                "action": "dryUp",
+                "dryupTimeout": 60,
+                "state": "enabled",
+                "vlanTag": 555
+              }
+            ]
+          },
+          {
+            "name": "TOT_INT_IPIG",
+            "ipsec": "disabled",
+            "ipInterface": [
+              {
+                "name": "IPIF0_225",
+                "ceName": "SSBCTOT01",
+                "portName": "pkt0",
+                "ipAddress": "192.168.43.57",
+                "prefix": 29,
+                "mode": "outOfService",
+                "action": "dryUp",
+                "dryupTimeout": 60,
+                "state": "disabled",
+                "vlanTag": 225
+              },
+              {
+                "name": "IPIF0_666",
+                "ceName": "SSBCTOT01",
+                "portName": "pkt0",
+                "ipAddress": "192.168.88.254",
+                "prefix": 24,
+                "mode": "inService",
+                "action": "dryUp",
+                "dryupTimeout": 60,
+                "state": "enabled",
+                "vlanTag": 666
+              },
+              {
+                "name": "IPIF0_667",
+                "ceName": "SSBCTOT01",
+                "portName": "pkt0",
+                "ipAddress": "192.168.90.254",
+                "prefix": 24,
+                "mode": "inService",
+                "action": "dryUp",
+                "dryupTimeout": 60,
+                "state": "enabled",
+                "vlanTag": 667
+              }
+            ]
+          },
+          {
+            "name": "TOT_INT_IPIG_556",
+            "ipInterface": [
+              {
+                "name": "IPIF0_556",
+                "ceName": "SSBCTOT01",
+                "portName": "pkt0",
+                "ipAddress": "172.30.182.254",
+                "prefix": 24,
+                "mode": "inService",
+                "state": "enabled",
+                "vlanTag": 556
+              }
+            ]
+          }
+        ],
+        "sonusIpInterface:staticRoute": [
+          {
+            "destinationIpAddress": "0.0.0.0",
+            "prefix": 0,
+            "nextHop": "172.30.157.1",
+            "ipInterfaceGroupName": "TOT_EXT_IPIG",
+            "ipInterfaceName": "IPIF1_555",
+            "preference": 100
+          },
+          {
+            "destinationIpAddress": "10.240.26.53",
+            "prefix": 32,
+            "nextHop": "192.168.43.62",
+            "ipInterfaceGroupName": "TOT_INT_IPIG",
+            "ipInterfaceName": "IPIF0_225",
+            "preference": 100
+          },
+          {
+            "destinationIpAddress": "172.30.147.0",
+            "prefix": 24,
+            "nextHop": "172.30.182.1",
+            "ipInterfaceGroupName": "TOT_INT_IPIG_556",
+            "ipInterfaceName": "IPIF0_556",
+            "preference": 100
+          },
+          {
+            "destinationIpAddress": "192.168.0.0",
+            "prefix": 16,
+            "nextHop": "192.168.88.1",
+            "ipInterfaceGroupName": "TOT_INT_IPIG",
+            "ipInterfaceName": "IPIF0_666",
+            "preference": 100
+          },
+          {
+            "destinationIpAddress": "192.168.0.0",
+            "prefix": 16,
+            "nextHop": "192.168.90.1",
+            "ipInterfaceGroupName": "TOT_INT_IPIG",
+            "ipInterfaceName": "IPIF0_667",
+            "preference": 100
+          },
+          {
+            "destinationIpAddress": "192.168.4.0",
+            "prefix": 24,
+            "nextHop": "192.168.88.1",
+            "ipInterfaceGroupName": "TOT_INT_IPIG",
+            "ipInterfaceName": "IPIF0_666",
+            "preference": 100
+          },
+          {
+            "destinationIpAddress": "192.168.5.1",
+            "prefix": 32,
+            "nextHop": "192.168.88.1",
+            "ipInterfaceGroupName": "TOT_INT_IPIG",
+            "ipInterfaceName": "IPIF0_666",
+            "preference": 100
+          },
+          {
+            "destinationIpAddress": "192.168.8.0",
+            "prefix": 24,
+            "nextHop": "192.168.88.1",
+            "ipInterfaceGroupName": "TOT_INT_IPIG",
+            "ipInterfaceName": "IPIF0_666",
+            "preference": 100
+          },
+          {
+            "destinationIpAddress": "192.168.12.0",
+            "prefix": 24,
+            "nextHop": "192.168.88.1",
+            "ipInterfaceGroupName": "TOT_INT_IPIG",
+            "ipInterfaceName": "IPIF0_666",
+            "preference": 100
+          },
+          {
+            "destinationIpAddress": "192.168.16.0",
+            "prefix": 24,
+            "nextHop": "192.168.88.1",
+            "ipInterfaceGroupName": "TOT_INT_IPIG",
+            "ipInterfaceName": "IPIF0_666",
+            "preference": 100
+          },
+          {
+            "destinationIpAddress": "192.168.17.0",
+            "prefix": 24,
+            "nextHop": "192.168.90.1",
+            "ipInterfaceGroupName": "TOT_INT_IPIG",
+            "ipInterfaceName": "IPIF0_667",
+            "preference": 100
+          },
+          {
+            "destinationIpAddress": "192.168.88.0",
+            "prefix": 24,
+            "nextHop": "192.168.88.1",
+            "ipInterfaceGroupName": "TOT_INT_IPIG",
+            "ipInterfaceName": "IPIF0_666",
+            "preference": 100
+          }
+        ],
+        "sonusIpAcl:ipAccessControlList": {
+          "rule": [
+            {
+              "name": "ACCEPT_ALL",
+              "precedence": 65535,
+              "protocol": "any",
+              "ipInterfaceGroup": "TOT_EXT_IPIG",
+              "sourceIpAddress": "0.0.0.0",
+              "sourceAddressPrefixLength": 0,
+              "destinationIpAddress": "0.0.0.0",
+              "destinationAddressPrefixLength": 0,
+              "destinationPort": "any",
+              "action": "accept",
+              "fillRate": 32000,
+              "bucketSize": 255,
+              "state": "enabled"
+            },
+            {
+              "name": "ACCEPT_ALL_INT",
+              "precedence": 65534,
+              "protocol": "any",
+              "ipInterfaceGroup": "TOT_INT_IPIG",
+              "sourceIpAddress": "0.0.0.0",
+              "sourceAddressPrefixLength": 0,
+              "destinationIpAddress": "0.0.0.0",
+              "destinationAddressPrefixLength": 0,
+              "destinationPort": "any",
+              "action": "accept",
+              "fillRate": 32000,
+              "bucketSize": 255,
+              "state": "enabled"
+            },
+            {
+              "name": "ACCEPT_ALL_INT556",
+              "precedence": 65533,
+              "protocol": "any",
+              "ipInterfaceGroup": "TOT_INT_IPIG_556",
+              "sourceIpAddress": "0.0.0.0",
+              "sourceAddressPrefixLength": 0,
+              "destinationIpAddress": "0.0.0.0",
+              "destinationAddressPrefixLength": 0,
+              "destinationPort": "any",
+              "action": "accept",
+              "fillRate": "unlimited",
+              "bucketSize": "unlimited",
+              "state": "enabled"
+            }
+          ]
+        },
+        "sonusZone:zone": [
+          {
+            "name": "CORE_ZONE",
+            "id": 2,
+            "remoteDeviceType": "appServer",
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "CORE_IPP1",
+                "ipAddress": "192.168.5.1",
+                "ipPort": 5066
+              },
+              {
+                "name": "CORE_IPP2",
+                "ipAddress": "192.168.5.1",
+                "ipPort": 5060
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 2,
+                "ipInterfaceGroupName": "TOT_INT_IPIG",
+                "ipAddressV4": "192.168.43.58",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled"
+              },
+              {
+                "index": 3,
+                "ipInterfaceGroupName": "TOT_INT_IPIG",
+                "ipAddressV4": "192.168.88.5",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled"
+              },
+              {
+                "index": 4,
+                "ipInterfaceGroupName": "TOT_INT_IPIG",
+                "ipAddressV4": "192.168.88.6",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "transportProtocolsAllowed": "sip-udp"
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "CORE_TG",
+                "state": "enabled",
+                "mode": "inService",
+                "signaling": {
+                  "messageManipulation": {
+                    "inputAdapterProfile": "ADD_SENDRECV_T38"
+                  }
+                },
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_INT_IPIG"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "192.168.5.1",
+                    "prefixLength": 32
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ACCESS_ZONE",
+            "id": 102,
+            "remoteDeviceType": "accessDevice",
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "ACCESS_IPP1",
+                "ipAddress": "172.31.88.60",
+                "ipPort": 5060
+              },
+              {
+                "name": "ACCESS_IT_Green",
+                "ipAddress": "172.31.50.50",
+                "ipPort": 5060
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 102,
+                "ipInterfaceGroupName": "TOT_EXT_IPIG",
+                "ipAddressV4": "172.31.88.57",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled"
+              },
+              {
+                "index": 103,
+                "ipInterfaceGroupName": "TOT_EXT_IPIG",
+                "ipAddressV4": "172.30.157.5",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "transportProtocolsAllowed": "sip-udp"
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "ACCESS_TG",
+                "state": "enabled",
+                "mode": "inService",
+                "signaling": {
+                  "messageManipulation": {
+                    "inputAdapterProfile": "ADD_SENDRECV_T38"
+                  }
+                },
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_EXT_IPIG"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "172.31.45.201",
+                    "prefixLength": 32
+                  },
+                  {
+                    "ipAddress": "172.31.50.50",
+                    "prefixLength": 32
+                  },
+                  {
+                    "ipAddress": "172.31.88.60",
+                    "prefixLength": 32
+                  }
+                ]
+              },
+              {
+                "name": "ACCESS_TG2",
+                "state": "disabled",
+                "mode": "outOfService",
+                "signaling": {
+                  "registration": {
+                    "requireRegistration": "required",
+                    "expires": 60
+                  },
+                  "rel100Support": "disabled",
+                  "relayNonInviteRequest": "enabled",
+                  "relayUpdatewithSdp": "disabled",
+                  "psxRouteForSubscribe": "enabled",
+                  "validateAor": "enabled",
+                  "condIncMethInAllowHdr": "enabled",
+                  "relayReplacesHeader": "disabled",
+                  "suppressNonRouteInviteResponse": "disabled",
+                  "honorMaddrParam": "disabled",
+                  "usePortRangeFlag": "disabled"
+                },
+                "services": {
+                  "preconditions": "none",
+                  "transmitPreconditions": "none",
+                  "natTraversal": {
+                    "signalingNat": "enabled",
+                    "mediaNat": "enabled",
+                    "learnNatForRtpOnly": "enabled",
+                    "tcpKeepaliveTimer": 60,
+                    "udpKeepaliveTimer": 60
+                  },
+                  "usePreviousLearnedIpAddress": "disabled"
+                },
+                "media": {
+                  "lateMediaSupport": "passthru",
+                  "maxPtimeDefault": 20,
+                  "mediaIpInterfaceGroupName": "TOT_EXT_IPIG",
+                  "sourceAddressFiltering": "enabled",
+                  "sdpAttributesSelectiveRelay": "enabled"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "0.0.0.0",
+                    "prefixLength": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "CORE_ZONE_MOF",
+            "id": 5,
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "TOT_SS_MOF",
+                "ipAddress": "192.168.5.1",
+                "ipPort": 5060
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 5,
+                "ipInterfaceGroupName": "TOT_INT_IPIG",
+                "ipAddressV4": "192.168.88.9",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "dscpValue": 26,
+                "transportProtocolsAllowed": "sip-udp",
+                "action": "dryup",
+                "dryUpTimeout": 15
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "CORE_TG_MOF",
+                "state": "enabled",
+                "mode": "inService",
+                "signaling": {
+                  "methods": {
+                    "message": "allow",
+                    "publish": "allow",
+                    "options": "allow",
+                    "refer": "allow",
+                    "subscribe": "allow",
+                    "notify": "allow",
+                    "info": "allow",
+                    "register": "allow",
+                    "update": "allow"
+                  }
+                },
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_INT_IPIG"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "192.168.5.1",
+                    "prefixLength": 32
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "CORE_ZONE_MWA",
+            "id": 6,
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "TOT_SS_MWA",
+                "ipAddress": "192.168.5.1",
+                "ipPort": 5060
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 6,
+                "ipInterfaceGroupName": "TOT_INT_IPIG",
+                "ipAddressV4": "192.168.88.13",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "dscpValue": 26,
+                "transportProtocolsAllowed": "sip-udp",
+                "action": "dryup",
+                "dryUpTimeout": 15
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "CORE_TG_MWA",
+                "state": "enabled",
+                "mode": "inService",
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_INT_IPIG"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "192.168.5.1",
+                    "prefixLength": 32
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "CORE_ZONE_SEC",
+            "id": 7,
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "TOT_SS_SEC",
+                "ipAddress": "192.168.5.1",
+                "ipPort": 5060
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 7,
+                "ipInterfaceGroupName": "TOT_INT_IPIG",
+                "ipAddressV4": "192.168.88.10",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "dscpValue": 26,
+                "transportProtocolsAllowed": "sip-udp",
+                "action": "dryup",
+                "dryUpTimeout": 15
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "CORE_TG_SEC",
+                "state": "enabled",
+                "mode": "inService",
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_INT_IPIG"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "192.168.5.1",
+                    "prefixLength": 32
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "CORE_ZONE_TKM",
+            "id": 8,
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "TOT_SS_TKM",
+                "ipAddress": "192.168.5.1",
+                "ipPort": 5060
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 8,
+                "ipInterfaceGroupName": "TOT_INT_IPIG",
+                "ipAddressV4": "192.168.88.11",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "dscpValue": 26,
+                "transportProtocolsAllowed": "sip-udp",
+                "action": "dryup",
+                "dryUpTimeout": 15
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "CORE_TG_TKM",
+                "state": "enabled",
+                "mode": "inService",
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_INT_IPIG"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "192.168.5.1",
+                    "prefixLength": 32
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "PEER_ZONE_MOF",
+            "id": 104,
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "IPP_MOF",
+                "ipAddress": "172.31.19.34",
+                "ipPort": 5060
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 104,
+                "ipInterfaceGroupName": "TOT_EXT_IPIG",
+                "ipAddressV4": "172.30.157.9",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "dscpValue": 26,
+                "transportProtocolsAllowed": "sip-udp",
+                "action": "dryup",
+                "dryUpTimeout": 15
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "PEER_TG_MOF",
+                "state": "enabled",
+                "mode": "inService",
+                "signaling": {
+                  "methods": {
+                    "message": "allow",
+                    "publish": "allow",
+                    "options": "allow",
+                    "refer": "allow",
+                    "subscribe": "allow",
+                    "notify": "allow",
+                    "info": "allow",
+                    "register": "allow",
+                    "update": "allow"
+                  }
+                },
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_EXT_IPIG"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "172.31.19.34",
+                    "prefixLength": 32
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "PEER_ZONE_MWA",
+            "id": 105,
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "IPP_MWA",
+                "ipAddress": "172.31.44.84",
+                "ipPort": 5060
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 105,
+                "ipInterfaceGroupName": "TOT_EXT_IPIG",
+                "ipAddressV4": "172.30.157.13",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "dscpValue": 26,
+                "transportProtocolsAllowed": "sip-udp",
+                "action": "dryup",
+                "dryUpTimeout": 15
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "PEER_TG_MWA",
+                "state": "enabled",
+                "mode": "inService",
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_EXT_IPIG"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "172.31.44.84",
+                    "prefixLength": 32
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "PEER_ZONE_SEC",
+            "id": 106,
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "IPP_SEC",
+                "ipAddress": "172.31.46.218",
+                "ipPort": 5060
+              },
+              {
+                "name": "IPP_SEC2",
+                "ipAddress": "172.31.46.226",
+                "ipPort": 5060
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 106,
+                "ipInterfaceGroupName": "TOT_EXT_IPIG",
+                "ipAddressV4": "172.30.157.10",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "dscpValue": 26,
+                "transportProtocolsAllowed": "sip-udp",
+                "action": "dryup",
+                "dryUpTimeout": 15
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "PEER_TG_SEC",
+                "state": "enabled",
+                "mode": "inService",
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_EXT_IPIG"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "172.31.46.218",
+                    "prefixLength": 32
+                  },
+                  {
+                    "ipAddress": "172.31.46.226",
+                    "prefixLength": 32
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "PEER_ZONE_TKM",
+            "id": 107,
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "IPP_TKM",
+                "ipAddress": "172.31.24.158",
+                "ipPort": 5060
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 107,
+                "ipInterfaceGroupName": "TOT_EXT_IPIG",
+                "ipAddressV4": "172.30.157.11",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "dscpValue": 26,
+                "transportProtocolsAllowed": "sip-udp",
+                "action": "dryup",
+                "dryUpTimeout": 15
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "PEER_TG_TKM",
+                "state": "enabled",
+                "mode": "inService",
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_EXT_IPIG",
+                  "mediaPortRange": {
+                    "baseUdpPort": 50000,
+                    "maxUdpPort": 60000
+                  }
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "172.31.24.158",
+                    "prefixLength": 32
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ACCESS_ZONE_03",
+            "id": 108,
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "ACCESS_IPP3",
+                "ipAddress": "172.31.48.130",
+                "ipPort": 5060
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 108,
+                "ipInterfaceGroupName": "TOT_EXT_IPIG",
+                "ipAddressV4": "172.30.157.6",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "transportProtocolsAllowed": "sip-udp"
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "ACCESS_TG3",
+                "state": "enabled",
+                "mode": "inService",
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_EXT_IPIG"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "172.31.48.130",
+                    "prefixLength": 32
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "defaultSigZone",
+            "id": 1
+          },
+          {
+            "name": "CORE_ZONE_ITGREEN",
+            "id": 9,
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "TOT_SS",
+                "ipAddress": "192.168.5.1",
+                "ipPort": 5060
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 9,
+                "ipInterfaceGroupName": "TOT_INT_IPIG",
+                "ipAddressV4": "192.168.88.7",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "dscpValue": 26,
+                "transportProtocolsAllowed": "sip-udp",
+                "action": "dryup",
+                "dryUpTimeout": 15
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "CORE_TG_ITGREEN",
+                "state": "enabled",
+                "mode": "inService",
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_INT_IPIG"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "192.168.5.1",
+                    "prefixLength": 32
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "CORE_ZONE_KEYENCE",
+            "id": 10,
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "TOT_SS_KEYENCE",
+                "ipAddress": "192.168.5.1",
+                "ipPort": 5060
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 10,
+                "ipInterfaceGroupName": "TOT_INT_IPIG",
+                "ipAddressV4": "192.168.88.12",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "dscpValue": 26,
+                "transportProtocolsAllowed": "sip-udp",
+                "action": "dryup",
+                "dryUpTimeout": 15
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "CORE_TG_KEYENCE",
+                "state": "enabled",
+                "mode": "inService",
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_INT_IPIG"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "192.168.5.1",
+                    "prefixLength": 32
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "PEER_ZONE_ITGREEN",
+            "id": 109,
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "IPP_ITGREEN",
+                "ipAddress": "172.31.47.74",
+                "ipPort": 0
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 109,
+                "ipInterfaceGroupName": "TOT_EXT_IPIG",
+                "ipAddressV4": "172.30.157.7",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "dscpValue": 26,
+                "transportProtocolsAllowed": "sip-udp",
+                "action": "dryup",
+                "dryUpTimeout": 15
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "PEER_TG_ITGREEN",
+                "state": "enabled",
+                "mode": "inService",
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_EXT_IPIG"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "172.31.47.14",
+                    "prefixLength": 32
+                  },
+                  {
+                    "ipAddress": "172.31.47.74",
+                    "prefixLength": 32
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "PEER_ZONE_KEYENCE",
+            "id": 110,
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "IPP_KEYENCE",
+                "ipAddress": "172.31.51.202",
+                "ipPort": 5060,
+                "pathCheck": {
+                  "profile": "TOT_PATHCHECK",
+                  "state": "disabled"
+                }
+              },
+              {
+                "name": "IPP_KEYENCE2",
+                "ipAddress": "172.31.51.210",
+                "ipPort": 5060,
+                "pathCheck": {
+                  "profile": "TOT_PATHCHECK",
+                  "state": "disabled"
+                }
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 110,
+                "ipInterfaceGroupName": "TOT_EXT_IPIG",
+                "ipAddressV4": "172.30.157.12",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "dscpValue": 26,
+                "transportProtocolsAllowed": "sip-udp",
+                "action": "dryup",
+                "dryUpTimeout": 15
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "PEER_TG_KEYENCE",
+                "state": "enabled",
+                "mode": "inService",
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_EXT_IPIG"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "172.31.51.202",
+                    "prefixLength": 32
+                  },
+                  {
+                    "ipAddress": "172.31.51.210",
+                    "prefixLength": 32
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "CORE_ZONE_DYNAMIC_IT",
+            "id": 11,
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "TOT_SS_DYNAMIC_IT",
+                "ipAddress": "192.168.17.1",
+                "ipPort": 5060
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 11,
+                "ipInterfaceGroupName": "TOT_INT_IPIG",
+                "ipAddressV4": "192.168.90.10",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "dscpValue": 26,
+                "transportProtocolsAllowed": "sip-udp",
+                "action": "dryup",
+                "dryUpTimeout": 15
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "CORE_TG_DYNAMIC_IT",
+                "state": "enabled",
+                "mode": "inService",
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_INT_IPIG"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "192.168.17.1",
+                    "prefixLength": 32
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "PEER_ZONE_DYNAMIC_IT",
+            "id": 111,
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "IPP_DYNAMIC_IT",
+                "ipAddress": "172.31.51.10",
+                "ipPort": 5060
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 111,
+                "ipInterfaceGroupName": "TOT_EXT_IPIG",
+                "ipAddressV4": "172.30.157.17",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "dscpValue": 26,
+                "transportProtocolsAllowed": "sip-udp",
+                "action": "dryup",
+                "dryUpTimeout": 15
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "PEER_TG_DYNAMIC_IT",
+                "state": "enabled",
+                "mode": "inService",
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_EXT_IPIG"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "172.31.51.10",
+                    "prefixLength": 32
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "CORE_ZONE_KEYENCE_BKK",
+            "id": 12,
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "TOT_SS_KEYENCE_BKK",
+                "ipAddress": "192.168.17.1",
+                "ipPort": 5060
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 12,
+                "ipInterfaceGroupName": "TOT_INT_IPIG",
+                "ipAddressV4": "192.168.90.9",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "dscpValue": 26,
+                "transportProtocolsAllowed": "sip-udp",
+                "action": "dryup",
+                "dryUpTimeout": 15
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "CORE_TG_KEYENCE_BKK",
+                "state": "enabled",
+                "mode": "inService",
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_INT_IPIG"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "192.168.17.1",
+                    "prefixLength": 32
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "CORE_ZONE_KEYENCE_CBI",
+            "id": 13,
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "TOT_SS_KEYENCE_CBI",
+                "ipAddress": "192.168.17.1",
+                "ipPort": 5060
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 13,
+                "ipInterfaceGroupName": "TOT_INT_IPIG",
+                "ipAddressV4": "192.168.90.8",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "dscpValue": 26,
+                "transportProtocolsAllowed": "sip-udp",
+                "action": "dryup",
+                "dryUpTimeout": 15
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "CORE_TG_KEYENCE_CBI",
+                "state": "enabled",
+                "mode": "inService",
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_INT_IPIG"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "192.168.17.1",
+                    "prefixLength": 32
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "CORE_ZONE_KEYENCE_RYG",
+            "id": 14,
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "TOT_SS_KEYENCE_RYG",
+                "ipAddress": "192.168.17.1",
+                "ipPort": 5060
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 14,
+                "ipInterfaceGroupName": "TOT_INT_IPIG",
+                "ipAddressV4": "192.168.90.7",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "dscpValue": 26,
+                "transportProtocolsAllowed": "sip-udp",
+                "action": "dryup",
+                "dryUpTimeout": 15
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "CORE_TG_KEYENCE_RYG",
+                "state": "enabled",
+                "mode": "inService",
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_INT_IPIG"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "192.168.17.1",
+                    "prefixLength": 32
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "PEER_ZONE_BAULUNG_CMI",
+            "id": 112,
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "IPP_BAULUNG_CMI",
+                "ipAddress": "172.31.49.186",
+                "ipPort": 5060
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 112,
+                "ipInterfaceGroupName": "TOT_EXT_IPIG",
+                "ipAddressV4": "172.30.157.8",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "dscpValue": 26,
+                "transportProtocolsAllowed": "sip-udp",
+                "action": "dryup",
+                "dryUpTimeout": 15
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "PEER_TG_BAULUNG_CMI",
+                "state": "enabled",
+                "mode": "inService",
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_EXT_IPIG"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "172.31.49.186",
+                    "prefixLength": 32
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "PEER_ZONE_KEYENCE_BKK",
+            "id": 113,
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "IPP_KEYENCE_BKK",
+                "ipAddress": "172.31.23.6",
+                "ipPort": 5060,
+                "pathCheck": {
+                  "profile": "TOT_PATHCHECK",
+                  "state": "disabled"
+                }
+              },
+              {
+                "name": "IPP_KEYENCE_BKK2",
+                "ipAddress": "172.31.23.10",
+                "ipPort": 5060,
+                "pathCheck": {
+                  "profile": "TOT_PATHCHECK",
+                  "state": "disabled"
+                }
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 113,
+                "ipInterfaceGroupName": "TOT_EXT_IPIG",
+                "ipAddressV4": "172.30.157.15",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "dscpValue": 26,
+                "transportProtocolsAllowed": "sip-udp",
+                "action": "dryup",
+                "dryUpTimeout": 15
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "PEER_TG_KEYENCE_BKK",
+                "state": "enabled",
+                "mode": "inService",
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_EXT_IPIG"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "172.31.23.6",
+                    "prefixLength": 32
+                  },
+                  {
+                    "ipAddress": "172.31.23.10",
+                    "prefixLength": 32
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "PEER_ZONE_KEYENCE_CBI",
+            "id": 114,
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "IPP_KEYENCE_CBI",
+                "ipAddress": "172.31.50.242",
+                "ipPort": 5060,
+                "pathCheck": {
+                  "profile": "TOT_PATHCHECK",
+                  "state": "disabled"
+                }
+              },
+              {
+                "name": "IPP_KEYENCE_CBI2",
+                "ipAddress": "172.31.50.250",
+                "ipPort": 5060,
+                "pathCheck": {
+                  "profile": "TOT_PATHCHECK",
+                  "state": "disabled"
+                }
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 114,
+                "ipInterfaceGroupName": "TOT_EXT_IPIG",
+                "ipAddressV4": "172.30.157.14",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "dscpValue": 26,
+                "transportProtocolsAllowed": "sip-udp",
+                "action": "dryup",
+                "dryUpTimeout": 15
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "PEER_TG_KEYENCE_CBI",
+                "state": "enabled",
+                "mode": "inService",
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_EXT_IPIG"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "172.31.50.242",
+                    "prefixLength": 32
+                  },
+                  {
+                    "ipAddress": "172.31.50.250",
+                    "prefixLength": 32
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "PEER_ZONE_KEYENCE_RYG",
+            "id": 115,
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "IPP_KEYENCE_RYG",
+                "ipAddress": "172.31.52.194",
+                "ipPort": 5060,
+                "pathCheck": {
+                  "profile": "TOT_PATHCHECK",
+                  "state": "disabled"
+                }
+              },
+              {
+                "name": "IPP_KEYENCE_RYG2",
+                "ipAddress": "172.31.52.202",
+                "ipPort": 5060,
+                "pathCheck": {
+                  "profile": "TOT_PATHCHECK",
+                  "state": "disabled"
+                }
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 115,
+                "ipInterfaceGroupName": "TOT_EXT_IPIG",
+                "ipAddressV4": "172.30.157.16",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "dscpValue": 26,
+                "transportProtocolsAllowed": "sip-udp",
+                "action": "dryup",
+                "dryUpTimeout": 15
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "PEER_TG_KEYENCE_RYG",
+                "state": "enabled",
+                "mode": "inService",
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_EXT_IPIG"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "172.31.52.194",
+                    "prefixLength": 32
+                  },
+                  {
+                    "ipAddress": "172.31.52.202",
+                    "prefixLength": 32
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "CORE_ZONE_BAULUANG_CMI",
+            "id": 15,
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "TOT_SS_BL",
+                "ipAddress": "192.168.5.1",
+                "ipPort": 5060
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 15,
+                "ipInterfaceGroupName": "TOT_INT_IPIG",
+                "ipAddressV4": "192.168.88.8",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "dscpValue": 26,
+                "transportProtocolsAllowed": "sip-udp",
+                "action": "dryup",
+                "dryUpTimeout": 15
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "CORE_TG_BAULUNG_CMI",
+                "state": "enabled",
+                "mode": "inService",
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_INT_IPIG"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "192.168.5.1",
+                    "prefixLength": 32
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "CORE_ZONE_TKS",
+            "id": 16,
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "TOT_SS_TKS",
+                "ipAddress": "192.168.17.1",
+                "ipPort": 5060
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 16,
+                "ipInterfaceGroupName": "TOT_INT_IPIG",
+                "ipAddressV4": "192.168.90.11",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "dscpValue": 26,
+                "transportProtocolsAllowed": "sip-udp",
+                "action": "dryup",
+                "dryUpTimeout": 15
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "CORE_TG_TKS",
+                "state": "enabled",
+                "mode": "inService",
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_INT_IPIG"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "192.168.17.1",
+                    "prefixLength": 32
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "PEER_ZONE_TKS",
+            "id": 116,
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "IPP_TKS",
+                "ipAddress": "172.31.53.202",
+                "ipPort": 5060
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 116,
+                "ipInterfaceGroupName": "TOT_EXT_IPIG",
+                "ipAddressV4": "172.30.157.18",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "dscpValue": 26,
+                "transportProtocolsAllowed": "sip-udp",
+                "action": "dryup",
+                "dryUpTimeout": 15
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "PEER_TG_TKS",
+                "state": "enabled",
+                "mode": "inService",
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_EXT_IPIG"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "172.31.53.202",
+                    "prefixLength": 32
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "CORE_ZONE_MET",
+            "id": 1001,
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "SS_MET",
+                "ipAddress": "172.30.147.70",
+                "ipPort": 5060
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 1001,
+                "ipInterfaceGroupName": "TOT_INT_IPIG_556",
+                "ipAddressV4": "172.30.182.5",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "action": "dryup",
+                "dryUpTimeout": 15
+              },
+              {
+                "index": 1003,
+                "ipInterfaceGroupName": "TOT_INT_IPIG_556",
+                "ipAddressV4": "172.30.182.7",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled"
+              },
+              {
+                "index": 4001,
+                "ipInterfaceGroupName": "TOT_INT_IPIG_556",
+                "ipAddressV4": "172.30.182.8",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "recorder": "disabled",
+                "siprec": "disabled",
+                "tcpConnectTimeout": 5,
+                "dscpValue": 0,
+                "tlsProfileName": "defaultTlsProfile",
+                "transportProtocolsAllowed": "sip-udp",
+                "sctpProfileName": "defaultSctpProfile",
+                "tcpKeepaliveTime": 0,
+                "tcpKeepaliveInterval": 60,
+                "tcpKeepaliveProbes": 2,
+                "maskPortforRcb": "disabled",
+                "maskIpAddressforRcb": "disabled",
+                "enforceAORMatch": "disabled",
+                "action": "dryup",
+                "dryUpTimeout": 15,
+                "tcpUserTimeout": 0
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "CORE_TG_MET",
+                "state": "enabled",
+                "mode": "inService",
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_INT_IPIG_556"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "172.30.147.70",
+                    "prefixLength": 32
+                  }
+                ]
+              },
+              {
+                "name": "CORE_TG_MET_TEST",
+                "state": "enabled",
+                "mode": "inService",
+                "action": "dryUp",
+                "dryUpTimeout": 5,
+                "downstreamForkingSupport": "disabled",
+                "processSGConfigWhenTGOOS": "disabled",
+                "ucidSupport": "none",
+                "recordingDNpreference": "fromHeaderOnly",
+                "policy": {
+                  "hpcOversubscription": 10
+                },
+                "packetOutage": {
+                  "minimumDuration": 6000,
+                  "minimumCalls": 1000,
+                  "bandwidthLimitReduction": 50,
+                  "detectionState": "disabled",
+                  "detectionInterval": 15
+                },
+                "tgMtrgCallsPerReq": 20,
+                "tgMtrgBwPerReq": 12400,
+                "tgMtrgResAllocation": "localignored",
+                "tgMtrgReqMaxCalls": "unlimited",
+                "tgMtrgReqMaxBw": "unlimited",
+                "callReservation": {
+                  "inbound": 0,
+                  "state": "disabled",
+                  "priorityCallMinimum": 1,
+                  "incomingCallMinimum": 1,
+                  "outgoingCallMinimum": 10,
+                  "silc": {
+                    "state": "disabled",
+                    "MC1Percent": 75,
+                    "MC2Percent": 25
+                  }
+                },
+                "cac": {
+                  "callLimit": "unlimited",
+                  "bandwidthLimit": "unlimited",
+                  "bandwidthVideoThreshold": 0,
+                  "callLimitThreshold": 0,
+                  "bandwidthLimitThreshold": 0,
+                  "emergencyOversubscription": 10,
+                  "extendedEmergencyIpLimit": 0,
+                  "registrationLimit": "unlimited",
+                  "estimatedChildRegistrations": 1,
+                  "subscriptionLimit": "unlimited",
+                  "tcpMediaLimit": "unlimited",
+                  "hpcOversubscription": 10,
+                  "ingress": {
+                    "callRateMax": "unlimited",
+                    "callBurstMax": "unlimited",
+                    "registerRateMax": "unlimited",
+                    "registerBurstMax": "unlimited",
+                    "callLimit": "unlimited",
+                    "emergencyOversubscription": 10,
+                    "extendedEmergencyIpLimit": 0,
+                    "subscribeRateMax": "unlimited",
+                    "subscribeBurstMax": "unlimited",
+                    "otherReqRateMax": "unlimited",
+                    "otherReqBurstMax": "unlimited",
+                    "hpcOversubscription": 10
+                  },
+                  "egress": {
+                    "callRateMax": "unlimited",
+                    "callBurstMax": "unlimited",
+                    "registerRateMax": "unlimited",
+                    "registerBurstMax": "unlimited",
+                    "callLimit": "unlimited",
+                    "emergencyOversubscription": 10,
+                    "extendedEmergencyIpLimit": 0,
+                    "subscribeRateMax": "unlimited",
+                    "subscribeBurstMax": "unlimited",
+                    "otherReqRateMax": "unlimited",
+                    "otherReqBurstMax": "unlimited",
+                    "hpcOversubscription": 10
+                  }
+                },
+                "qoe": {
+                  "minTimeToProceed": 60,
+                  "rfactor": {
+                    "criticalQosRfactorLimit": 50,
+                    "majorQosRfactorLimit": 70
+                  },
+                  "asr": {
+                    "defaultQosAsr": 90,
+                    "criticalQosAsrLimit": 40,
+                    "majorQosAsrLimit": 70
+                  },
+                  "scru": {
+                    "criticalQosScruLimit": 80
+                  },
+                  "clu": {
+                    "criticalQosCluLimit": 80
+                  },
+                  "pgrd": {
+                    "criticalQosPgrdLimit": 2000,
+                    "defaultPgrdFactor": 500
+                  }
+                },
+                "signaling": {
+                  "accessClass": "none",
+                  "callingParty": {
+                    "paiForCallingParty": "enabled",
+                    "ppiForCallingParty": "enabled",
+                    "rpiForCallingParty": "enabled",
+                    "fromHdrForCallingParty": "enabled",
+                    "mapIsupCgpnToPAI": "disabled",
+                    "mapFromHeaderToIsupGAP": "disabled",
+                    "cpcParamFromHeader": "default",
+                    "trustedSourceForIsup": "enabled"
+                  },
+                  "routeMsgValidation": "noValidation",
+                  "maxFwdsDefault": 70,
+                  "TCPFallback": {
+                    "maxMTUSupportedOverUDPControl": "disabled",
+                    "maxMTUSupportedOverUDPValue": 1300
+                  },
+                  "backwardInfoMsgConDialog": "disabled",
+                  "P-HeaderExtensions": {
+                    "useIngressOrigCa": "disabled",
+                    "addEgressOrigCa": "disabled"
+                  },
+                  "isupMimeBodyRelay": "disabled",
+                  "sdpTransparency": {
+                    "sdpTransparencyState": "disabled"
+                  },
+                  "messageManipulation": {
+                    "includeAppHdrs": "disabled"
+                  },
+                  "causeCodeMapping": {
+                    "useNonDefaultCauseCodeforARSBlackList": "disabled"
+                  },
+                  "methods": {
+                    "message": "allow",
+                    "publish": "allow",
+                    "options": "allow",
+                    "refer": "allow",
+                    "subscribe": "allow",
+                    "notify": "allow",
+                    "info": "allow",
+                    "register": "allow",
+                    "update": "allow"
+                  },
+                  "retryCounters": {
+                    "general": 7,
+                    "invite": 6,
+                    "bye": 3,
+                    "cancel": 3,
+                    "reInvite": 3,
+                    "retryOn422": 5,
+                    "retryOn491": 5,
+                    "invite200": 0
+                  },
+                  "timers": {
+                    "t1": 500,
+                    "t2": 4000,
+                    "tcpRetransmitTimer": 6,
+                    "sctpRetransmitTimer": 6,
+                    "sessionKeepalive": 1800,
+                    "nonNatKeepAliveTimer": 60,
+                    "sessionMinSE": 90,
+                    "sessionTerminationDeltaTime": 0,
+                    "suspendResumeTimer": {
+                      "state": "disabled",
+                      "value": 30,
+                      "type": "both"
+                    },
+                    "ocsDialogTimer": 1440,
+                    "bfcpTimer": {
+                      "reqTimerT1": 500,
+                      "respTimerT2": 10000
+                    }
+                  },
+                  "registration": {
+                    "requireRegistration": "none",
+                    "expires": 3600,
+                    "insideExpiresMinimum": 3600,
+                    "includeXOriginalAddr": "disabled",
+                    "bulkRegisterFormat": "disabled",
+                    "intRefreshFactorMin": 0,
+                    "intRefreshFactorMax": 0,
+                    "extRefreshFactorMin": 0,
+                    "extRefreshFactorMax": 0,
+                    "alwaysRandomIntExpires": "disabled",
+                    "alwaysRandomExtExpires": "disabled",
+                    "useRUriForRegisterRouting": "disabled"
+                  },
+                  "authentication": {
+                    "intChallengeResponse": "disabled",
+                    "incInternalCredentials": "disabled"
+                  },
+                  "transportPreference": {
+                    "preference1": "udp",
+                    "preference2": "tcp",
+                    "preference3": "none",
+                    "preference4": "none"
+                  },
+                  "rel100Support": "disabled",
+                  "sdp100relIwkForPrack": "disabled",
+                  "prefRequireTransparency": "disabled",
+                  "privacyParamRestricted": "default",
+                  "relayNonInviteRequest": "enabled",
+                  "treatPortZeroAsNoAudio": "disabled",
+                  "relayUpdatewithSdp": "disabled",
+                  "uriPreference": "none",
+                  "strictParse": "disabled",
+                  "skipDTGLookupForRouteHdr": "disabled",
+                  "processTgrpContext": "disabled",
+                  "isubParamPreference": "rfc2806",
+                  "variantType": "sonus",
+                  "factorValue": 1,
+                  "alwaysReplyInactiveIfReceivedInactive": "disabled",
+                  "localNumberSupport": "disabled",
+                  "disableTermIOIForPcscf": "disabled",
+                  "deRegParentWithChildDereg": "disabled",
+                  "usePSXRouteAsReqUriInReg": "disabled",
+                  "psxRouteForSubscribe": "disabled",
+                  "validateAor": "enabled",
+                  "sourceAddressValidation": "disabled",
+                  "condIncMethInAllowHdr": "disabled",
+                  "sipFilterProfile": "default",
+                  "X-Headers": {
+                    "HeaderFlag": "none",
+                    "HeaderProfile": "XHeaderDefault",
+                    "IsupProfile": "ttc93+"
+                  },
+                  "acceptHistoryInfo": "disabled",
+                  "egressCallIdStaticString": "-",
+                  "allowByeChallenge": "disabled",
+                  "enforceTlsIfSipsUriScheme": "disabled",
+                  "enforceSipsIfEgressIsTls": "disabled",
+                  "usePsxRouteForEmergencyCall": "disabled",
+                  "ocsSupport": "disabled",
+                  "relayReplacesHeader": "disabled",
+                  "sendSdpToPsx": "disabled",
+                  "postDialDelay": {
+                    "timeOut": 0,
+                    "responseCode": 503
+                  },
+                  "useGAPwhenRnDisabled": "disabled",
+                  "support199OptionTag": "disabled",
+                  "keepSupport": "disabled",
+                  "outboundSupport": "disabled",
+                  "silenceSuppTreatment": "treatAsFaxTransmissionIndication",
+                  "rfc3261ValidateCSeqInBYE": "disabled",
+                  "rfc3261ValidateInvite200OkRetransmissions": "disabled",
+                  "useRandomUserInfoInContactHdr": "disabled",
+                  "suppressNonRouteInviteResponse": "disabled",
+                  "dnsForceReQuery": "disabled",
+                  "usePcfaCcf": "disabled",
+                  "honorMaddrParam": "enabled",
+                  "rewriteIdentities": "disabled",
+                  "usePortRangeFlag": "enabled",
+                  "storeICID": "disabled",
+                  "clearTcpConnectionsforRegistration": "disabled",
+                  "stopLmsdToneOnUpdate": "disabled",
+                  "dropIsupMimeBody": "disabled",
+                  "cpcInterworkingForNNI": "disabled",
+                  "aiToPemInterworking": "disabled",
+                  "convertAlertToProgress": "disabled"
+                },
+                "services": {
+                  "dnsSupportType": "a-only",
+                  "preconditions": "none",
+                  "transmitPreconditions": "supported",
+                  "preconditionIntwkUsing183": "disabled",
+                  "honorSdpClockRate": "disabled",
+                  "overlapAddressing": {
+                    "overlapState": "disabled",
+                    "minDigitsForQuery": 0,
+                    "timer2": 0,
+                    "timer3": 4,
+                    "receive": "disabled",
+                    "send": "disabled",
+                    "timer1": 10
+                  },
+                  "longDurationCall": {
+                    "timeoutValue": 0,
+                    "action": "noAction",
+                    "relCause": 41,
+                    "emergencyOrPriorityCalls": "exclude",
+                    "emergencyCalls": "exclude"
+                  },
+                  "natTraversal": {
+                    "signalingNat": "disabled",
+                    "mediaNat": "disabled",
+                    "learnNatForRtpOnly": "disabled",
+                    "iceSupport": "none",
+                    "iceKeepaliveTimer": 15,
+                    "tcpKeepaliveTimer": 240,
+                    "udpKeepaliveTimer": 60,
+                    "outboundTcpKeepaliveTimer": 240,
+                    "outboundUdpKeepaliveTimer": 60,
+                    "secureMediaNatPrefix": 0,
+                    "adaptiveLearning": {
+                      "state": "disabled",
+                      "maxUdpPinholeTimer": 180,
+                      "maxTcpPinholeTimer": 600,
+                      "reLearningInterval": 24
+                    },
+                    "iceTcpRole": "passive"
+                  },
+                  "emergencyCallHandlingMode": "none",
+                  "jsrcBandwidthReservation": "disabled",
+                  "remoteEPreservation": "disabled",
+                  "sipJipProfile": "defaultJipProfile",
+                  "sipJurisdictionSupport": "disabled",
+                  "usePreviousLearnedIpAddress": "disabled",
+                  "dialogEventNotificationSupported": "disabled",
+                  "colocatedPandEcscf": "disabled",
+                  "dnsNaptrAlways": "disabled"
+                },
+                "media": {
+                  "dataPathModePassthru": "disabled",
+                  "directMediaAllowed": "disabled",
+                  "directMediaAllowedBehindNapt": "disabled",
+                  "directMediaAntiTrombone": "disabled",
+                  "directMediaGroupId": 0,
+                  "lateMediaSupport": "convert",
+                  "maxPtimeDefault": 150,
+                  "comediaConnectionRole": "none",
+                  "tmr64K": "disabled",
+                  "mediaIpInterfaceGroupName": "TOT_EXT_IPIG",
+                  "mediaIpAddress": "0.0.0.0",
+                  "sourceAddressFiltering": "enabled",
+                  "mediaAddrType": "matchSigAddrType",
+                  "recordable": "disabled",
+                  "earlyMedia": {
+                    "method": "sessionAnswer",
+                    "egressSupport": "enabled",
+                    "defaultGatingMethod": "sendrecv",
+                    "forkingBehaviour": "lastProvResponse"
+                  },
+                  "sdpAttributesSelectiveRelay": "disabled",
+                  "pcrf": {
+                    "pcrfCommitment": "none",
+                    "cushionPacketSize": "disabled",
+                    "cushionNullSdp": "disabled",
+                    "signallingPath": "disabled",
+                    "fetchLocationInfo": "none",
+                    "provSignalingFlow": "disabled",
+                    "terminateOnNwFailure": "disabled",
+                    "pcrfInteractionMode": "synchronous",
+                    "pcrfSendAarOnlyForSessionAnswer": "disabled"
+                  },
+                  "msrp": "enabled",
+                  "mediaPortRange": {
+                    "baseUdpPort": "none",
+                    "maxUdpPort": "none"
+                  },
+                  "tcpPortRange": {
+                    "baseServerPort": "none",
+                    "maxServerPort": "none"
+                  },
+                  "omrAllowed": "disabled",
+                  "advertiseAudioOnly": "disabled",
+                  "lyncShare": "enabled"
+                },
+                "callRouting": {
+                  "useRouteSet": "disabled",
+                  "ansSupervisionTimeout": 300,
+                  "ansSupervisionTimeoutAction": "release",
+                  "crankBackProfile": "default",
+                  "internationalNoaPlus": "disabled",
+                  "addStoredPathAsTopRoute": "disabled",
+                  "dnsCrankback": "disabled",
+                  "sendRouteUriToPsx": "disabled"
+                },
+                "congestionHandling": {
+                  "egressThrottling": "disabled",
+                  "retryAfterMin": 10,
+                  "retryAfterMax": 30
+                },
+                "blockDirection": "none"
+              }
+            ]
+          },
+          {
+            "name": "ACCESS_ZONE_MET",
+            "id": 1002,
+            "sonusIpPeer:ipPeer": [
+              {
+                "name": "IPP_PBX",
+                "ipAddress": "10.240.63.18",
+                "ipPort": 5060
+              }
+            ],
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 1002,
+                "ipInterfaceGroupName": "TOT_EXT_IPIG",
+                "ipAddressV4": "172.30.157.254",
+                "portNumber": 5060,
+                "mode": "inService",
+                "state": "enabled",
+                "transportProtocolsAllowed": "sip-udp",
+                "action": "dryup",
+                "dryUpTimeout": 15
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "ACCESS_TG_MET",
+                "state": "enabled",
+                "mode": "inService",
+                "media": {
+                  "mediaIpInterfaceGroupName": "TOT_EXT_IPIG"
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "10.240.63.18",
+                    "prefixLength": 32
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ACCESS_ZONE_MET_TEST",
+            "id": 4000,
+            "disableZoneLevelLoopDetection": "disabled",
+            "remoteDeviceType": "none",
+            "sipRegRelay": "disabled",
+            "dialogTransparency": "disabled",
+            "retargetSupport": "useSystemLevelConfiguration",
+            "sipHeaderForAnonymousCall": "none",
+            "sonusSipSigPort:sipSigPort": [
+              {
+                "index": 4000,
+                "ipInterfaceGroupName": "TOT_EXT_IPIG",
+                "ipAddressV4": "172.30.157.250",
+                "portNumber": 5060,
+                "state": "enabled",
+                "recorder": "disabled",
+                "siprec": "disabled",
+                "tcpConnectTimeout": 5,
+                "dscpValue": 0,
+                "tlsProfileName": "defaultTlsProfile",
+                "transportProtocolsAllowed": "sip-udp",
+                "sctpProfileName": "defaultSctpProfile",
+                "tcpKeepaliveTime": 0,
+                "tcpKeepaliveInterval": 60,
+                "tcpKeepaliveProbes": 2,
+                "maskPortforRcb": "disabled",
+                "maskIpAddressforRcb": "disabled",
+                "enforceAORMatch": "disabled",
+                "action": "force",
+                "tcpUserTimeout": 0
+              }
+            ],
+            "sonusSipTrunkGroup:sipTrunkGroup": [
+              {
+                "name": "ACCESS_TG_MET_TEST",
+                "state": "enabled",
+                "mode": "inService",
+                "action": "dryUp",
+                "dryUpTimeout": 5,
+                "downstreamForkingSupport": "disabled",
+                "processSGConfigWhenTGOOS": "disabled",
+                "ucidSupport": "none",
+                "recordingDNpreference": "fromHeaderOnly",
+                "policy": {
+                  "hpcOversubscription": 10
+                },
+                "packetOutage": {
+                  "minimumDuration": 6000,
+                  "minimumCalls": 1000,
+                  "bandwidthLimitReduction": 50,
+                  "detectionState": "disabled",
+                  "detectionInterval": 15
+                },
+                "tgMtrgCallsPerReq": 20,
+                "tgMtrgBwPerReq": 12400,
+                "tgMtrgResAllocation": "localignored",
+                "tgMtrgReqMaxCalls": "unlimited",
+                "tgMtrgReqMaxBw": "unlimited",
+                "callReservation": {
+                  "inbound": 0,
+                  "state": "disabled",
+                  "priorityCallMinimum": 1,
+                  "incomingCallMinimum": 1,
+                  "outgoingCallMinimum": 10,
+                  "silc": {
+                    "state": "disabled",
+                    "MC1Percent": 75,
+                    "MC2Percent": 25
+                  }
+                },
+                "cac": {
+                  "callLimit": "unlimited",
+                  "bandwidthLimit": "unlimited",
+                  "bandwidthVideoThreshold": 0,
+                  "callLimitThreshold": 0,
+                  "bandwidthLimitThreshold": 0,
+                  "emergencyOversubscription": 10,
+                  "extendedEmergencyIpLimit": 0,
+                  "registrationLimit": "unlimited",
+                  "estimatedChildRegistrations": 1,
+                  "subscriptionLimit": "unlimited",
+                  "tcpMediaLimit": "unlimited",
+                  "hpcOversubscription": 10,
+                  "ingress": {
+                    "callRateMax": "unlimited",
+                    "callBurstMax": "unlimited",
+                    "registerRateMax": "unlimited",
+                    "registerBurstMax": "unlimited",
+                    "callLimit": "unlimited",
+                    "emergencyOversubscription": 10,
+                    "extendedEmergencyIpLimit": 0,
+                    "subscribeRateMax": "unlimited",
+                    "subscribeBurstMax": "unlimited",
+                    "otherReqRateMax": "unlimited",
+                    "otherReqBurstMax": "unlimited",
+                    "hpcOversubscription": 10
+                  },
+                  "egress": {
+                    "callRateMax": "unlimited",
+                    "callBurstMax": "unlimited",
+                    "registerRateMax": "unlimited",
+                    "registerBurstMax": "unlimited",
+                    "callLimit": "unlimited",
+                    "emergencyOversubscription": 10,
+                    "extendedEmergencyIpLimit": 0,
+                    "subscribeRateMax": "unlimited",
+                    "subscribeBurstMax": "unlimited",
+                    "otherReqRateMax": "unlimited",
+                    "otherReqBurstMax": "unlimited",
+                    "hpcOversubscription": 10
+                  }
+                },
+                "qoe": {
+                  "minTimeToProceed": 60,
+                  "rfactor": {
+                    "criticalQosRfactorLimit": 50,
+                    "majorQosRfactorLimit": 70
+                  },
+                  "asr": {
+                    "defaultQosAsr": 90,
+                    "criticalQosAsrLimit": 40,
+                    "majorQosAsrLimit": 70
+                  },
+                  "scru": {
+                    "criticalQosScruLimit": 80
+                  },
+                  "clu": {
+                    "criticalQosCluLimit": 80
+                  },
+                  "pgrd": {
+                    "criticalQosPgrdLimit": 2000,
+                    "defaultPgrdFactor": 500
+                  }
+                },
+                "signaling": {
+                  "accessClass": "none",
+                  "callingParty": {
+                    "paiForCallingParty": "enabled",
+                    "ppiForCallingParty": "enabled",
+                    "rpiForCallingParty": "enabled",
+                    "fromHdrForCallingParty": "enabled",
+                    "mapIsupCgpnToPAI": "disabled",
+                    "mapFromHeaderToIsupGAP": "disabled",
+                    "cpcParamFromHeader": "default",
+                    "trustedSourceForIsup": "enabled"
+                  },
+                  "routeMsgValidation": "noValidation",
+                  "maxFwdsDefault": 70,
+                  "TCPFallback": {
+                    "maxMTUSupportedOverUDPControl": "disabled",
+                    "maxMTUSupportedOverUDPValue": 1300
+                  },
+                  "backwardInfoMsgConDialog": "disabled",
+                  "P-HeaderExtensions": {
+                    "useIngressOrigCa": "disabled",
+                    "addEgressOrigCa": "disabled"
+                  },
+                  "isupMimeBodyRelay": "disabled",
+                  "sdpTransparency": {
+                    "sdpTransparencyState": "disabled"
+                  },
+                  "messageManipulation": {
+                    "includeAppHdrs": "disabled"
+                  },
+                  "causeCodeMapping": {
+                    "useNonDefaultCauseCodeforARSBlackList": "disabled"
+                  },
+                  "methods": {
+                    "message": "allow",
+                    "publish": "allow",
+                    "options": "allow",
+                    "refer": "allow",
+                    "subscribe": "allow",
+                    "notify": "allow",
+                    "info": "allow",
+                    "register": "allow",
+                    "update": "allow"
+                  },
+                  "retryCounters": {
+                    "general": 7,
+                    "invite": 6,
+                    "bye": 3,
+                    "cancel": 3,
+                    "reInvite": 3,
+                    "retryOn422": 5,
+                    "retryOn491": 5,
+                    "invite200": 0
+                  },
+                  "timers": {
+                    "t1": 500,
+                    "t2": 4000,
+                    "tcpRetransmitTimer": 6,
+                    "sctpRetransmitTimer": 6,
+                    "sessionKeepalive": 1800,
+                    "nonNatKeepAliveTimer": 60,
+                    "sessionMinSE": 90,
+                    "sessionTerminationDeltaTime": 0,
+                    "suspendResumeTimer": {
+                      "state": "disabled",
+                      "value": 30,
+                      "type": "both"
+                    },
+                    "ocsDialogTimer": 1440,
+                    "bfcpTimer": {
+                      "reqTimerT1": 500,
+                      "respTimerT2": 10000
+                    }
+                  },
+                  "registration": {
+                    "requireRegistration": "required",
+                    "expires": 60,
+                    "insideExpiresMinimum": 3600,
+                    "includeXOriginalAddr": "disabled",
+                    "bulkRegisterFormat": "disabled",
+                    "intRefreshFactorMin": 0,
+                    "intRefreshFactorMax": 0,
+                    "extRefreshFactorMin": 0,
+                    "extRefreshFactorMax": 0,
+                    "alwaysRandomIntExpires": "disabled",
+                    "alwaysRandomExtExpires": "disabled",
+                    "useRUriForRegisterRouting": "disabled"
+                  },
+                  "authentication": {
+                    "intChallengeResponse": "disabled",
+                    "incInternalCredentials": "disabled"
+                  },
+                  "transportPreference": {
+                    "preference1": "udp",
+                    "preference2": "tcp",
+                    "preference3": "none",
+                    "preference4": "none"
+                  },
+                  "rel100Support": "disabled",
+                  "sdp100relIwkForPrack": "disabled",
+                  "prefRequireTransparency": "disabled",
+                  "privacyParamRestricted": "default",
+                  "relayNonInviteRequest": "enabled",
+                  "treatPortZeroAsNoAudio": "disabled",
+                  "relayUpdatewithSdp": "disabled",
+                  "uriPreference": "none",
+                  "strictParse": "disabled",
+                  "skipDTGLookupForRouteHdr": "disabled",
+                  "processTgrpContext": "disabled",
+                  "isubParamPreference": "rfc2806",
+                  "variantType": "sonus",
+                  "factorValue": 1,
+                  "alwaysReplyInactiveIfReceivedInactive": "disabled",
+                  "localNumberSupport": "disabled",
+                  "disableTermIOIForPcscf": "disabled",
+                  "deRegParentWithChildDereg": "disabled",
+                  "usePSXRouteAsReqUriInReg": "disabled",
+                  "psxRouteForSubscribe": "disabled",
+                  "validateAor": "enabled",
+                  "sourceAddressValidation": "disabled",
+                  "condIncMethInAllowHdr": "disabled",
+                  "sipFilterProfile": "default",
+                  "X-Headers": {
+                    "HeaderFlag": "none",
+                    "HeaderProfile": "XHeaderDefault",
+                    "IsupProfile": "ttc93+"
+                  },
+                  "acceptHistoryInfo": "disabled",
+                  "egressCallIdStaticString": "-",
+                  "allowByeChallenge": "disabled",
+                  "enforceTlsIfSipsUriScheme": "disabled",
+                  "enforceSipsIfEgressIsTls": "disabled",
+                  "usePsxRouteForEmergencyCall": "disabled",
+                  "ocsSupport": "disabled",
+                  "relayReplacesHeader": "disabled",
+                  "sendSdpToPsx": "disabled",
+                  "postDialDelay": {
+                    "timeOut": 0,
+                    "responseCode": 503
+                  },
+                  "useGAPwhenRnDisabled": "disabled",
+                  "support199OptionTag": "disabled",
+                  "keepSupport": "disabled",
+                  "outboundSupport": "disabled",
+                  "silenceSuppTreatment": "treatAsFaxTransmissionIndication",
+                  "rfc3261ValidateCSeqInBYE": "disabled",
+                  "rfc3261ValidateInvite200OkRetransmissions": "disabled",
+                  "useRandomUserInfoInContactHdr": "disabled",
+                  "suppressNonRouteInviteResponse": "disabled",
+                  "dnsForceReQuery": "disabled",
+                  "usePcfaCcf": "disabled",
+                  "honorMaddrParam": "disabled",
+                  "rewriteIdentities": "disabled",
+                  "usePortRangeFlag": "disabled",
+                  "storeICID": "disabled",
+                  "clearTcpConnectionsforRegistration": "disabled",
+                  "stopLmsdToneOnUpdate": "disabled",
+                  "dropIsupMimeBody": "disabled",
+                  "cpcInterworkingForNNI": "disabled",
+                  "aiToPemInterworking": "disabled",
+                  "convertAlertToProgress": "disabled"
+                },
+                "services": {
+                  "dnsSupportType": "a-only",
+                  "preconditions": "none",
+                  "transmitPreconditions": "supported",
+                  "preconditionIntwkUsing183": "disabled",
+                  "honorSdpClockRate": "disabled",
+                  "overlapAddressing": {
+                    "overlapState": "disabled",
+                    "minDigitsForQuery": 0,
+                    "timer2": 0,
+                    "timer3": 4,
+                    "receive": "disabled",
+                    "send": "disabled",
+                    "timer1": 10
+                  },
+                  "longDurationCall": {
+                    "timeoutValue": 0,
+                    "action": "noAction",
+                    "relCause": 41,
+                    "emergencyOrPriorityCalls": "exclude",
+                    "emergencyCalls": "exclude"
+                  },
+                  "natTraversal": {
+                    "signalingNat": "enabled",
+                    "mediaNat": "enabled",
+                    "learnNatForRtpOnly": "enabled",
+                    "iceSupport": "none",
+                    "iceKeepaliveTimer": 15,
+                    "tcpKeepaliveTimer": 240,
+                    "udpKeepaliveTimer": 60,
+                    "outboundTcpKeepaliveTimer": 240,
+                    "outboundUdpKeepaliveTimer": 60,
+                    "secureMediaNatPrefix": 0,
+                    "adaptiveLearning": {
+                      "state": "disabled",
+                      "maxUdpPinholeTimer": 180,
+                      "maxTcpPinholeTimer": 600,
+                      "reLearningInterval": 24
+                    },
+                    "iceTcpRole": "passive"
+                  },
+                  "emergencyCallHandlingMode": "none",
+                  "jsrcBandwidthReservation": "disabled",
+                  "remoteEPreservation": "disabled",
+                  "sipJipProfile": "defaultJipProfile",
+                  "sipJurisdictionSupport": "disabled",
+                  "transparencyProfile": "ACCESS_TP",
+                  "usePreviousLearnedIpAddress": "disabled",
+                  "dialogEventNotificationSupported": "disabled",
+                  "colocatedPandEcscf": "disabled",
+                  "dnsNaptrAlways": "disabled"
+                },
+                "media": {
+                  "dataPathModePassthru": "disabled",
+                  "directMediaAllowed": "disabled",
+                  "directMediaAllowedBehindNapt": "disabled",
+                  "directMediaAntiTrombone": "disabled",
+                  "directMediaGroupId": 0,
+                  "lateMediaSupport": "passthru",
+                  "maxPtimeDefault": 150,
+                  "comediaConnectionRole": "none",
+                  "tmr64K": "disabled",
+                  "mediaIpInterfaceGroupName": "TOT_EXT_IPIG",
+                  "mediaIpAddress": "0.0.0.0",
+                  "sourceAddressFiltering": "enabled",
+                  "mediaAddrType": "matchSigAddrType",
+                  "recordable": "disabled",
+                  "earlyMedia": {
+                    "method": "sessionAnswer",
+                    "egressSupport": "enabled",
+                    "defaultGatingMethod": "sendrecv",
+                    "forkingBehaviour": "lastProvResponse"
+                  },
+                  "sdpAttributesSelectiveRelay": "enabled",
+                  "pcrf": {
+                    "pcrfCommitment": "none",
+                    "cushionPacketSize": "disabled",
+                    "cushionNullSdp": "disabled",
+                    "signallingPath": "disabled",
+                    "fetchLocationInfo": "none",
+                    "provSignalingFlow": "disabled",
+                    "terminateOnNwFailure": "disabled",
+                    "pcrfInteractionMode": "synchronous",
+                    "pcrfSendAarOnlyForSessionAnswer": "disabled"
+                  },
+                  "msrp": "enabled",
+                  "mediaPortRange": {
+                    "baseUdpPort": "none",
+                    "maxUdpPort": "none"
+                  },
+                  "tcpPortRange": {
+                    "baseServerPort": "none",
+                    "maxServerPort": "none"
+                  },
+                  "omrAllowed": "disabled",
+                  "advertiseAudioOnly": "disabled",
+                  "lyncShare": "enabled"
+                },
+                "callRouting": {
+                  "useRouteSet": "disabled",
+                  "ansSupervisionTimeout": 300,
+                  "ansSupervisionTimeoutAction": "release",
+                  "crankBackProfile": "default",
+                  "internationalNoaPlus": "disabled",
+                  "addStoredPathAsTopRoute": "disabled",
+                  "dnsCrankback": "disabled",
+                  "sendRouteUriToPsx": "disabled"
+                },
+                "congestionHandling": {
+                  "egressThrottling": "disabled",
+                  "retryAfterMin": 10,
+                  "retryAfterMax": 30
+                },
+                "ingressIpPrefix": [
+                  {
+                    "ipAddress": "0.0.0.0",
+                    "prefixLength": 0
+                  }
+                ],
+                "blockDirection": "none"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

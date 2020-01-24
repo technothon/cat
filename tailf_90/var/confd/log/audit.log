@@ -1,0 +1,394 @@
+<INFO> 22-Jan-2020::15:44:54.225 bf060 confd[36529]: audit user: writeLock/17 assigned to groups: admin
+<INFO> 22-Jan-2020::15:44:56.239 bf060 confd[36529]: audit user: writeLock/17 Logged out from maapi ctx=maapi (end_user_session)
+<INFO> 22-Jan-2020::15:46:19.006 bf060 confd[36529]: audit user: admin1/26 assigned to groups: Administrator
+<INFO> 22-Jan-2020::15:46:19.134 bf060 confd[36529]: audit user: admin1/26 Logged out from maapi ctx=maapi (closed)
+<INFO> 22-Jan-2020::15:46:39.630 bf060 confd[36529]: audit user: writeLock/29 assigned to groups: admin
+<INFO> 22-Jan-2020::15:46:47.394 bf060 confd[36529]: audit user: admin/30 assigned to groups: Administrator,admin,Confd,sftponly,upload
+<INFO> 22-Jan-2020::15:47:23.485 bf060 confd[36529]: audit user: writeLock/29 Logged out from maapi ctx=maapi (end_user_session)
+<INFO> 22-Jan-2020::16:46:49.039 bf060 confd[36529]: audit user: admin/31 assigned to groups: Administrator,admin,Confd,sftponly,upload
+<INFO> 22-Jan-2020::17:46:50.306 bf060 confd[36529]: audit user: admin/32 assigned to groups: Administrator,admin,Confd,sftponly,upload
+<INFO> 22-Jan-2020::18:46:51.658 bf060 confd[36529]: audit user: admin/33 assigned to groups: Administrator,admin,Confd,sftponly,upload
+<INFO> 22-Jan-2020::19:46:53.029 bf060 confd[36529]: audit user: admin/34 assigned to groups: Administrator,admin,Confd,sftponly,upload
+<INFO> 22-Jan-2020::20:46:54.359 bf060 confd[36529]: audit user: admin/35 assigned to groups: Administrator,admin,Confd,sftponly,upload
+<INFO> 22-Jan-2020::21:46:55.663 bf060 confd[36529]: audit user: admin/36 assigned to groups: Administrator,admin,Confd,sftponly,upload
+<INFO> 22-Jan-2020::22:46:56.965 bf060 confd[36529]: audit user: admin/37 assigned to groups: Administrator,admin,Confd,sftponly,upload
+<INFO> 22-Jan-2020::23:32:46.753 bf060 confd[36529]: audit user: admin/38 assigned to groups: Administrator
+<INFO> 22-Jan-2020::23:33:28.366 bf060 confd[36529]: audit user: admin/39 assigned to groups: Administrator
+<INFO> 22-Jan-2020::23:39:16.097 bf060 confd[36529]: audit user: admin/40 assigned to groups: Administrator
+<INFO> 22-Jan-2020::23:40:16.580 bf060 confd[36529]: audit user: admin/41 assigned to groups: Administrator,admin
+<INFO> 22-Jan-2020::23:40:16.669 bf060 confd[36529]: audit user: admin/41 CLI 'startup'
+<INFO> 22-Jan-2020::23:40:35.118 bf060 confd[36529]: audit user: admin/42 logged in from the CLI with aaa disabled
+<INFO> 22-Jan-2020::23:40:36.206 bf060 confd[36529]: audit user: admin/42 CLI 'configure'
+<INFO> 22-Jan-2020::23:40:36.222 bf060 confd[36529]: audit user: admin/42 CLI done
+<INFO> 22-Jan-2020::23:40:36.235 bf060 confd[36529]: audit user: admin/42 CLI 'unhide debug'
+<INFO> 22-Jan-2020::23:40:36.776 bf060 confd[36529]: audit user: admin/42 CLI done
+<INFO> 22-Jan-2020::23:40:36.920 bf060 confd[36529]: audit user: admin/42 CLI 'set oam aaa authentication users user admin password ****'
+<INFO> 22-Jan-2020::23:40:37.040 bf060 confd[36529]: audit user: admin/42 CLI done
+<INFO> 22-Jan-2020::23:40:37.055 bf060 confd[36529]: audit user: admin/42 CLI 'commit'
+<INFO> 22-Jan-2020::23:40:38.298 bf060 confd[36529]: audit user: admin/42 CLI done
+<INFO> 22-Jan-2020::23:40:38.315 bf060 confd[36529]: audit user: admin/42 CLI 'hide debug'
+<INFO> 22-Jan-2020::23:40:38.316 bf060 confd[36529]: audit user: admin/42 CLI done
+<INFO> 22-Jan-2020::23:40:38.329 bf060 confd[36529]: audit user: admin/42 CLI 'exit'
+<INFO> 22-Jan-2020::23:40:38.343 bf060 confd[36529]: audit user: admin/42 CLI done
+<INFO> 22-Jan-2020::23:40:39.764 bf060 confd[36529]: audit user: admin/41 CLI done
+<INFO> 22-Jan-2020::23:41:03.469 bf060 confd[36529]: audit user: admin/41 CLI 'show table addressContext default'
+<INFO> 22-Jan-2020::23:41:05.685 bf060 confd[36529]: audit user: admin/41 CLI aborted
+<INFO> 22-Jan-2020::23:41:09.388 bf060 confd[36529]: audit user: admin/41 CLI 'configure'
+<INFO> 22-Jan-2020::23:41:09.394 bf060 confd[36529]: audit user: admin/41 CLI done
+<INFO> 22-Jan-2020::23:41:25.631 bf060 confd[36529]: audit user: admin/41 CLI 'show addressContext default'
+<INFO> 22-Jan-2020::23:41:41.533 bf060 confd[36529]: audit user: admin/41 CLI done
+<INFO> 22-Jan-2020::23:42:10.577 bf060 confd[36529]: audit user: admin/41 CLI 'exit'
+<INFO> 22-Jan-2020::23:42:10.579 bf060 confd[36529]: audit user: admin/41 CLI done
+<INFO> 22-Jan-2020::23:42:11.984 bf060 confd[36529]: audit user: admin/41 CLI 'exit'
+<INFO> 22-Jan-2020::23:42:53.650 bf060 confd[36529]: audit user: admin/44 assigned to groups: Administrator,admin
+<INFO> 22-Jan-2020::23:42:53.655 bf060 confd[36529]: audit user: admin/44 CLI 'startup'
+<INFO> 22-Jan-2020::23:42:57.217 bf060 confd[36529]: audit user: admin/44 CLI done
+<INFO> 22-Jan-2020::23:43:02.803 bf060 confd[36529]: audit user: admin/44 CLI 'configure'
+<INFO> 22-Jan-2020::23:43:02.814 bf060 confd[36529]: audit user: admin/44 CLI done
+<INFO> 22-Jan-2020::23:43:11.023 bf060 confd[36529]: audit user: admin/44 CLI 'show addressContext default'
+<INFO> 22-Jan-2020::23:43:11.817 bf060 confd[36529]: audit user: admin/44 CLI aborted
+<INFO> 22-Jan-2020::23:43:20.078 bf060 confd[36529]: audit user: admin/44 CLI 'show addressContext default'
+<INFO> 22-Jan-2020::23:43:27.574 bf060 confd[36529]: audit user: admin/44 CLI done
+<INFO> 22-Jan-2020::23:46:58.237 bf060 confd[36529]: audit user: admin/45 assigned to groups: Administrator,admin,Confd,sftponly,upload
+<INFO> 22-Jan-2020::23:55:38.578 bf060 confd[36529]: audit user: admin/46 assigned to groups: Administrator,admin
+<INFO> 22-Jan-2020::23:55:38.583 bf060 confd[36529]: audit user: admin/46 CLI 'startup'
+<INFO> 22-Jan-2020::23:55:42.173 bf060 confd[36529]: audit user: admin/46 CLI done
+<INFO> 22-Jan-2020::23:55:47.906 bf060 confd[36529]: audit user: admin/46 CLI 'configure'
+<INFO> 22-Jan-2020::23:55:47.918 bf060 confd[36529]: audit user: admin/46 CLI done
+<INFO> 22-Jan-2020::23:56:42.048 bf060 confd[36529]: audit user: admin/46 CLI 'show addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS'
+<INFO> 22-Jan-2020::23:57:07.996 bf060 confd[36529]: audit user: admin/46 CLI done
+<INFO> 23-Jan-2020::00:02:28.872 bf060 confd[36529]: audit user: admin/46 CLI 'exit'
+<INFO> 23-Jan-2020::00:02:28.874 bf060 confd[36529]: audit user: admin/46 CLI done
+<INFO> 23-Jan-2020::00:02:29.208 bf060 confd[36529]: audit user: admin/46 CLI 'exit'
+<INFO> 23-Jan-2020::00:46:59.452 bf060 confd[36529]: audit user: admin/48 assigned to groups: Administrator,admin,Confd,sftponly,upload
+<INFO> 23-Jan-2020::01:22:22.570 bf060 confd[36529]: audit user: admin/49 assigned to groups: Administrator,admin
+<INFO> 23-Jan-2020::01:22:22.575 bf060 confd[36529]: audit user: admin/49 CLI 'startup'
+<INFO> 23-Jan-2020::01:22:25.762 bf060 confd[36529]: audit user: admin/50 assigned to groups: Administrator,admin
+<INFO> 23-Jan-2020::01:22:25.766 bf060 confd[36529]: audit user: admin/50 Logged out from maapi ctx='SmInstallLicenseFile' (closed)
+<INFO> 23-Jan-2020::01:23:29.559 bf060 confd[36529]: audit user: admin/51 assigned to groups: Administrator
+<INFO> 23-Jan-2020::01:24:24.414 bf060 confd[36529]: audit user: admin/52 assigned to groups: Administrator,admin
+<INFO> 23-Jan-2020::01:24:24.419 bf060 confd[36529]: audit user: admin/52 CLI 'startup'
+<INFO> 23-Jan-2020::01:24:27.877 bf060 confd[36529]: audit user: admin/52 CLI done
+<INFO> 23-Jan-2020::01:24:29.630 bf060 confd[36529]: audit user: admin/52 CLI 'configure'
+<INFO> 23-Jan-2020::01:24:29.641 bf060 confd[36529]: audit user: admin/52 CLI done
+<INFO> 23-Jan-2020::01:25:17.177 bf060 confd[36529]: audit user: admin/52 CLI 'show addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD'
+<INFO> 23-Jan-2020::01:25:46.625 bf060 confd[36529]: audit user: admin/52 CLI done
+<INFO> 23-Jan-2020::01:31:33.745 bf060 confd[36529]: audit user: admin/52 CLI 'show addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD'
+<INFO> 23-Jan-2020::01:47:00.707 bf060 confd[36529]: audit user: admin/53 assigned to groups: Administrator,admin,Confd,sftponly,upload
+<INFO> 23-Jan-2020::02:47:02.053 bf060 confd[36529]: audit user: admin/54 assigned to groups: Administrator,admin,Confd,sftponly,upload
+<INFO> 23-Jan-2020::03:42:27.958 bf060 confd[36529]: audit user: admin/55 assigned to groups: Administrator,root
+<INFO> 23-Jan-2020::03:42:27.964 bf060 confd[36529]: audit user: admin/55 CLI 'startup'
+<INFO> 23-Jan-2020::03:42:29.855 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:47:03.378 bf060 confd[36529]: audit user: admin/56 assigned to groups: Administrator,admin,Confd,sftponly,upload
+<INFO> 23-Jan-2020::03:49:55.949 bf060 confd[36529]: audit user: admin/55 CLI 'configure'
+<INFO> 23-Jan-2020::03:49:55.959 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:50:07.054 bf060 confd[36529]: audit user: admin/55 CLI 'show addressContext'
+<INFO> 23-Jan-2020::03:50:08.445 bf060 confd[36529]: audit user: admin/55 CLI aborted
+<INFO> 23-Jan-2020::03:51:34.090 bf060 confd[36529]: audit user: admin/55 CLI 'show addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac'
+<INFO> 23-Jan-2020::03:51:34.116 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:51:46.374 bf060 confd[36529]: audit user: admin/55 CLI 'show addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac'
+<INFO> 23-Jan-2020::03:51:46.378 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:51:51.593 bf060 confd[36529]: audit user: admin/55 CLI 'show addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac'
+<INFO> 23-Jan-2020::03:51:51.627 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:04.310 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac callLimit unlimited'
+<INFO> 23-Jan-2020::03:52:04.313 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:04.932 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac bandwidthLimit unlimited'
+<INFO> 23-Jan-2020::03:52:04.935 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:05.549 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac bandwidthVideoThreshold 0'
+<INFO> 23-Jan-2020::03:52:05.551 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:06.171 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac callLimitThreshold 0'
+<INFO> 23-Jan-2020::03:52:06.174 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:06.791 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac bandwidthLimitThreshold 0'
+<INFO> 23-Jan-2020::03:52:06.794 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:07.409 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac emergencyOversubscription 10'
+<INFO> 23-Jan-2020::03:52:07.411 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:08.025 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac extendedEmergencyIpLimit 0'
+<INFO> 23-Jan-2020::03:52:08.028 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:08.645 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac registrationLimit unlimited'
+<INFO> 23-Jan-2020::03:52:08.648 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:09.264 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac estimatedChildRegistrations 1'
+<INFO> 23-Jan-2020::03:52:09.267 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:09.890 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac subscriptionLimit unlimited'
+<INFO> 23-Jan-2020::03:52:09.893 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:10.511 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac tcpMediaLimit unlimited'
+<INFO> 23-Jan-2020::03:52:10.514 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:11.132 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac hpcOversubscription 10'
+<INFO> 23-Jan-2020::03:52:11.134 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:11.888 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac ingress callRateMax unlimited'
+<INFO> 23-Jan-2020::03:52:11.891 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:12.635 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac ingress callBurstMax unlimited'
+<INFO> 23-Jan-2020::03:52:12.638 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:13.386 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac ingress registerRateMax unlimited'
+<INFO> 23-Jan-2020::03:52:13.389 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:14.136 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac ingress registerBurstMax unlimited'
+<INFO> 23-Jan-2020::03:52:14.138 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:14.884 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac ingress callLimit unlimited'
+<INFO> 23-Jan-2020::03:52:14.887 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:15.631 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac ingress emergencyOversubscription 10'
+<INFO> 23-Jan-2020::03:52:15.634 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:16.376 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac ingress extendedEmergencyIpLimit 0'
+<INFO> 23-Jan-2020::03:52:16.379 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:17.126 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac ingress subscribeRateMax unlimited'
+<INFO> 23-Jan-2020::03:52:17.129 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:17.877 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac ingress subscribeBurstMax unlimited'
+<INFO> 23-Jan-2020::03:52:17.880 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:18.626 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac ingress otherReqRateMax unlimited'
+<INFO> 23-Jan-2020::03:52:18.629 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:19.374 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac ingress otherReqBurstMax unlimited'
+<INFO> 23-Jan-2020::03:52:19.377 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:20.120 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac ingress hpcOversubscription 10'
+<INFO> 23-Jan-2020::03:52:20.123 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:20.873 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress callRateMax unlimited'
+<INFO> 23-Jan-2020::03:52:20.876 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:21.621 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress callBurstMax unlimited'
+<INFO> 23-Jan-2020::03:52:21.624 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:22.369 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress registerRateMax unlimited'
+<INFO> 23-Jan-2020::03:52:22.371 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:23.118 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress registerBurstMax unlimited'
+<INFO> 23-Jan-2020::03:52:23.121 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:23.867 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress callLimit unlimited'
+<INFO> 23-Jan-2020::03:52:23.869 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:24.614 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress emergencyOversubscription 10'
+<INFO> 23-Jan-2020::03:52:24.617 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:25.365 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress extendedEmergencyIpLimit 0'
+<INFO> 23-Jan-2020::03:52:25.368 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:26.115 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress subscribeRateMax unlimited'
+<INFO> 23-Jan-2020::03:52:26.118 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:26.867 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress subscribeBurstMax unlimited'
+<INFO> 23-Jan-2020::03:52:26.869 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:27.624 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress otherReqRateMax unlimited'
+<INFO> 23-Jan-2020::03:52:27.627 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:28.374 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress otherReqBurstMax unlimited'
+<INFO> 23-Jan-2020::03:52:28.377 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:29.121 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress hpcOversubscription 10'
+<INFO> 23-Jan-2020::03:52:29.124 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:52:55.803 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress otherReqRateMax 3000'
+<INFO> 23-Jan-2020::03:52:55.805 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:53:08.016 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress subscribeRateMax 300'
+<INFO> 23-Jan-2020::03:53:08.019 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:53:21.577 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress extendedEmergencyIpLimit 40000'
+<INFO> 23-Jan-2020::03:53:21.579 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:53:22.717 bf060 confd[36529]: audit user: admin/55 CLI 'commit'
+<INFO> 23-Jan-2020::03:53:23.169 bf060 confd[36529]: audit user: admin/55 CLI aborted
+<INFO> 23-Jan-2020::03:53:32.317 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress hpcOversubscription 100'
+<INFO> 23-Jan-2020::03:53:32.320 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:53:33.199 bf060 confd[36529]: audit user: admin/55 CLI 'commit'
+<INFO> 23-Jan-2020::03:53:33.646 bf060 confd[36529]: audit user: admin/55 CLI aborted
+<INFO> 23-Jan-2020::03:53:51.660 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress subscribeBurstMax 3000'
+<INFO> 23-Jan-2020::03:53:51.662 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:53:52.686 bf060 confd[36529]: audit user: admin/55 CLI 'commit'
+<INFO> 23-Jan-2020::03:53:53.139 bf060 confd[36529]: audit user: admin/55 CLI aborted
+<INFO> 23-Jan-2020::03:54:06.603 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress otherReqBurstMax 3000'
+<INFO> 23-Jan-2020::03:54:06.606 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:54:07.584 bf060 confd[36529]: audit user: admin/55 CLI 'commit'
+<INFO> 23-Jan-2020::03:54:09.225 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:54:22.506 bf060 confd[36529]: audit user: admin/55 CLI 'show addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS'
+<INFO> 23-Jan-2020::03:54:22.703 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:55:26.881 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac callLimit 500'
+<INFO> 23-Jan-2020::03:55:26.884 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:55:27.508 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac bandwidthLimit 600'
+<INFO> 23-Jan-2020::03:55:27.510 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:55:28.132 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac bandwidthVideoThreshold 0'
+<INFO> 23-Jan-2020::03:55:28.134 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:55:28.754 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac callLimitThreshold 0'
+<INFO> 23-Jan-2020::03:55:28.757 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:55:29.378 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac bandwidthLimitThreshold 0'
+<INFO> 23-Jan-2020::03:55:29.380 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:55:29.997 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac emergencyOversubscription 10'
+<INFO> 23-Jan-2020::03:55:29.999 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:55:30.619 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac extendedEmergencyIpLimit 0'
+<INFO> 23-Jan-2020::03:55:30.622 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:55:31.245 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac registrationLimit 300'
+<INFO> 23-Jan-2020::03:55:31.248 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:55:31.874 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac estimatedChildRegistrations 1'
+<INFO> 23-Jan-2020::03:55:31.877 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:55:32.495 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac subscriptionLimit 600'
+<INFO> 23-Jan-2020::03:55:32.498 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:55:33.121 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac tcpMediaLimit 100'
+<INFO> 23-Jan-2020::03:55:33.123 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:55:33.748 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac hpcOversubscription 10'
+<INFO> 23-Jan-2020::03:55:33.750 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:55:34.506 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac ingress callRateMax 60'
+<INFO> 23-Jan-2020::03:55:34.509 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:55:36.497 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac ingress callBurstMax 20'
+<INFO> 23-Jan-2020::03:55:36.500 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:55:37.265 bf060 confd[36529]: audit user: admin/55 CLI 'commit'
+<INFO> 23-Jan-2020::03:55:38.222 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:24.071 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac callLimit 500'
+<INFO> 23-Jan-2020::03:56:24.074 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:24.699 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac bandwidthLimit 600'
+<INFO> 23-Jan-2020::03:56:24.702 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:25.322 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac bandwidthVideoThreshold 0'
+<INFO> 23-Jan-2020::03:56:25.325 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:25.948 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac callLimitThreshold 0'
+<INFO> 23-Jan-2020::03:56:25.951 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:26.574 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac bandwidthLimitThreshold 0'
+<INFO> 23-Jan-2020::03:56:26.577 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:27.205 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac emergencyOversubscription 10'
+<INFO> 23-Jan-2020::03:56:27.208 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:27.836 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac extendedEmergencyIpLimit 0'
+<INFO> 23-Jan-2020::03:56:27.839 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:28.473 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac registrationLimit 300'
+<INFO> 23-Jan-2020::03:56:28.475 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:29.106 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac estimatedChildRegistrations 1'
+<INFO> 23-Jan-2020::03:56:29.108 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:29.742 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac subscriptionLimit 600'
+<INFO> 23-Jan-2020::03:56:29.745 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:30.377 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac tcpMediaLimit 100'
+<INFO> 23-Jan-2020::03:56:30.379 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:31.010 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac hpcOversubscription 10'
+<INFO> 23-Jan-2020::03:56:31.012 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:31.780 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac ingress callRateMax 60'
+<INFO> 23-Jan-2020::03:56:31.783 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:32.546 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac ingress callBurstMax 20'
+<INFO> 23-Jan-2020::03:56:32.548 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:33.314 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac ingress registerRateMax 70'
+<INFO> 23-Jan-2020::03:56:33.316 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:34.086 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac ingress registerBurstMax 90'
+<INFO> 23-Jan-2020::03:56:34.089 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:34.854 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac ingress callLimit 95'
+<INFO> 23-Jan-2020::03:56:34.857 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:35.620 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac ingress emergencyOversubscription 10'
+<INFO> 23-Jan-2020::03:56:35.623 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:36.385 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac ingress extendedEmergencyIpLimit 0'
+<INFO> 23-Jan-2020::03:56:36.388 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:37.155 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac ingress subscribeRateMax 34'
+<INFO> 23-Jan-2020::03:56:37.157 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:37.923 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac ingress subscribeBurstMax 45'
+<INFO> 23-Jan-2020::03:56:37.926 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:38.692 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac ingress otherReqRateMax 76'
+<INFO> 23-Jan-2020::03:56:38.695 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:39.463 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac ingress otherReqBurstMax 98'
+<INFO> 23-Jan-2020::03:56:39.465 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:40.231 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac ingress hpcOversubscription 10'
+<INFO> 23-Jan-2020::03:56:40.233 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:41.004 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress callRateMax 87'
+<INFO> 23-Jan-2020::03:56:41.007 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:41.776 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress callBurstMax 76'
+<INFO> 23-Jan-2020::03:56:41.778 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:42.542 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress registerRateMax 48'
+<INFO> 23-Jan-2020::03:56:42.545 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:43.310 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress registerBurstMax 59'
+<INFO> 23-Jan-2020::03:56:43.313 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:44.082 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress callLimit unlimited'
+<INFO> 23-Jan-2020::03:56:44.085 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:44.850 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress emergencyOversubscription 10'
+<INFO> 23-Jan-2020::03:56:44.853 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:45.618 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress extendedEmergencyIpLimit 40000'
+<INFO> 23-Jan-2020::03:56:45.621 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:46.390 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress subscribeRateMax 300'
+<INFO> 23-Jan-2020::03:56:46.392 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:47.159 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress subscribeBurstMax 3000'
+<INFO> 23-Jan-2020::03:56:47.161 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:47.927 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress otherReqRateMax 3000'
+<INFO> 23-Jan-2020::03:56:47.929 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:48.697 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress otherReqBurstMax 3000'
+<INFO> 23-Jan-2020::03:56:48.699 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:49.467 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS cac egress hpcOversubscription 100'
+<INFO> 23-Jan-2020::03:56:49.470 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:50.126 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS media mediaIpInterfaceGroupName LIG2'
+<INFO> 23-Jan-2020::03:56:50.129 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:52.167 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS ingressIpPrefix 10.8.0.0 16'
+<INFO> 23-Jan-2020::03:56:52.169 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:53.011 bf060 confd[36529]: audit user: admin/55 CLI 'commit'
+<INFO> 23-Jan-2020::03:56:54.074 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:56:59.501 bf060 confd[36529]: audit user: admin/55 CLI 'show addressContext default zone ZONE_AS sipTrunkGroup TG_SIPART_AS'
+<INFO> 23-Jan-2020::03:56:59.700 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:57:20.988 bf060 confd[36529]: audit user: admin/55 CLI 'show addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD'
+<INFO> 23-Jan-2020::03:57:21.155 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:57:30.350 bf060 confd[36529]: audit user: admin/55 CLI 'show addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD'
+<INFO> 23-Jan-2020::03:59:12.041 bf060 confd[36529]: audit user: admin/55 CLI aborted
+<INFO> 23-Jan-2020::03:59:14.343 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac callLimit 56'
+<INFO> 23-Jan-2020::03:59:14.346 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:14.982 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac bandwidthLimit 67'
+<INFO> 23-Jan-2020::03:59:14.985 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:15.617 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac bandwidthVideoThreshold 0'
+<INFO> 23-Jan-2020::03:59:15.620 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:16.257 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac callLimitThreshold 0'
+<INFO> 23-Jan-2020::03:59:16.259 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:16.889 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac bandwidthLimitThreshold 0'
+<INFO> 23-Jan-2020::03:59:16.892 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:17.527 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac emergencyOversubscription 10'
+<INFO> 23-Jan-2020::03:59:17.529 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:18.161 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac extendedEmergencyIpLimit 0'
+<INFO> 23-Jan-2020::03:59:18.164 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:18.801 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac registrationLimit 34'
+<INFO> 23-Jan-2020::03:59:18.803 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:19.437 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac estimatedChildRegistrations 1'
+<INFO> 23-Jan-2020::03:59:19.439 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:20.076 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac subscriptionLimit 89'
+<INFO> 23-Jan-2020::03:59:20.078 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:20.713 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac tcpMediaLimit 45'
+<INFO> 23-Jan-2020::03:59:20.716 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:21.348 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac hpcOversubscription 10'
+<INFO> 23-Jan-2020::03:59:21.351 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:22.123 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac ingress callRateMax 78'
+<INFO> 23-Jan-2020::03:59:22.126 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:22.894 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac ingress callBurstMax 23'
+<INFO> 23-Jan-2020::03:59:22.896 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:23.663 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac ingress registerRateMax 78'
+<INFO> 23-Jan-2020::03:59:23.665 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:24.431 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac ingress registerBurstMax 23'
+<INFO> 23-Jan-2020::03:59:24.434 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:25.203 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac ingress callLimit 78'
+<INFO> 23-Jan-2020::03:59:25.205 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:25.970 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac ingress emergencyOversubscription 10'
+<INFO> 23-Jan-2020::03:59:25.973 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:26.735 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac ingress extendedEmergencyIpLimit 0'
+<INFO> 23-Jan-2020::03:59:26.738 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:27.504 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac ingress subscribeRateMax 23'
+<INFO> 23-Jan-2020::03:59:27.507 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:28.277 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac ingress subscribeBurstMax 36'
+<INFO> 23-Jan-2020::03:59:28.280 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:29.047 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac ingress otherReqRateMax 89'
+<INFO> 23-Jan-2020::03:59:29.050 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:29.818 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac ingress otherReqBurstMax 26'
+<INFO> 23-Jan-2020::03:59:29.820 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:30.587 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac ingress hpcOversubscription 10'
+<INFO> 23-Jan-2020::03:59:30.589 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:31.363 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac egress callRateMax 69'
+<INFO> 23-Jan-2020::03:59:31.365 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:32.134 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac egress callBurstMax 25'
+<INFO> 23-Jan-2020::03:59:32.137 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:32.903 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac egress registerRateMax 26'
+<INFO> 23-Jan-2020::03:59:32.906 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:33.674 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac egress registerBurstMax 69'
+<INFO> 23-Jan-2020::03:59:33.676 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:34.445 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac egress callLimit 96'
+<INFO> 23-Jan-2020::03:59:34.448 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:35.214 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac egress emergencyOversubscription 10'
+<INFO> 23-Jan-2020::03:59:35.217 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:35.982 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac egress extendedEmergencyIpLimit 0'
+<INFO> 23-Jan-2020::03:59:35.985 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:36.752 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac egress subscribeRateMax 98'
+<INFO> 23-Jan-2020::03:59:36.755 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:37.526 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac egress subscribeBurstMax 67'
+<INFO> 23-Jan-2020::03:59:37.528 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:38.298 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac egress otherReqRateMax 98'
+<INFO> 23-Jan-2020::03:59:38.300 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:39.069 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac egress otherReqBurstMax 99'
+<INFO> 23-Jan-2020::03:59:39.072 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:41.333 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD cac egress hpcOversubscription 10'
+<INFO> 23-Jan-2020::03:59:41.335 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::03:59:42.532 bf060 confd[36529]: audit user: admin/55 CLI 'commit'
+<INFO> 23-Jan-2020::03:59:44.171 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::04:00:00.496 bf060 confd[36529]: audit user: admin/55 CLI 'show addressContext default zone ZONE_IAD sipTrunkGroup TG_SIPART_IAD'
+<INFO> 23-Jan-2020::04:00:06.314 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::04:00:35.025 bf060 confd[36529]: audit user: admin/55 CLI 'show addressContext default zone'
+<INFO> 23-Jan-2020::04:00:36.746 bf060 confd[36529]: audit user: admin/55 CLI aborted
+<INFO> 23-Jan-2020::04:00:40.644 bf060 confd[36529]: audit user: admin/55 CLI 'show addressContext default zone'
+<INFO> 23-Jan-2020::04:00:44.921 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::04:00:50.222 bf060 confd[36529]: audit user: admin/55 CLI 'show addressContext default zone'
+<INFO> 23-Jan-2020::04:00:56.872 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::04:08:57.630 bf060 confd[36529]: audit user: admin/55 CLI 'exit'
+<INFO> 23-Jan-2020::04:08:57.632 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::04:08:59.132 bf060 confd[36529]: audit user: admin/55 CLI 'configure'
+<INFO> 23-Jan-2020::04:08:59.141 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::04:09:40.147 bf060 confd[36529]: audit user: admin/55 CLI 'set addressContext default zone ZONE_AS sipSigPort 2 dscpValue 5'
+<INFO> 23-Jan-2020::04:09:40.150 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::04:09:41.359 bf060 confd[36529]: audit user: admin/55 CLI 'commit'
+<INFO> 23-Jan-2020::04:09:41.665 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::04:12:26.505 bf060 confd[36529]: audit user: admin/55 CLI 'show addressContext default zone ZONE_AS messageManipulation'
+<INFO> 23-Jan-2020::04:12:26.509 bf060 confd[36529]: audit user: admin/55 CLI done
+<INFO> 23-Jan-2020::04:12:31.857 bf060 confd[36529]: audit user: admin/55 CLI 'show addressContext default zone ZONE_AS messageManipulation'
+<INFO> 23-Jan-2020::04:12:31.861 bf060 confd[36529]: audit user: admin/55 CLI done

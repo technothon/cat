@@ -1,0 +1,14 @@
+# Created by: admin
+# Date: 2020-01-22 09:38:46
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10013
+
+addressContext default {
+    zone ZONE_AS {
+        delete:
+        ipPeer PEER_AS;
+    }
+ }

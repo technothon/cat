@@ -1,0 +1,14 @@
+# Created by: admin
+# Date: 2020-01-22 09:38:40
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10010
+
+addressContext default {
+    zone ZONE_IAD {
+        delete:
+        sipTrunkGroup TG_SIPART_IAD;
+    }
+ }

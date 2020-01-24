@@ -1,0 +1,16 @@
+# Created by: admin
+# Date: 2020-01-22 09:38:52
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10020
+
+global {
+    callRouting {
+        delete:
+        route trunkGroup TG_SIPART_IAD BF060 standard Sonus_NULL 1 all all ALL none Sonus_NULL;
+        delete:
+        route trunkGroup TG_SIPART_IAD BF060 username Sonus_NULL Sonus_NULL all all ALL none Sonus_NULL;
+    }
+ }

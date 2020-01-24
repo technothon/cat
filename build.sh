@@ -18,10 +18,10 @@ if [ ! -d $cdb_dir ]; then
 	exit 3;
 fi
 
-if ! ls $cdb_dir/*.cdb >& /dev/null; then
-	echo "cdb files are missing"
-	exit 4;
-fi
+#if ! ls $cdb_dir/*.cdb >& /dev/null; then
+#	echo "cdb files are missing"
+#	exit 4;
+#fi
 
 docker rm `docker ps -a -q`
 docker build -t confd .

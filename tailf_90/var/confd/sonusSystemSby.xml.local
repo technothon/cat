@@ -1,0 +1,41 @@
+<!--
+# SBX startup configuration file.
+#
+# Copyright (c) 2010 Sonus Networks, Inc.
+# All rights reserved.
+#
+-->
+<config xmlns="http://tail-f.com/ns/config/1.0">
+  <system xmlns="http://sonusnet.com/ns/mibs/SONUS-SYSTEM-MIB/1.0">
+    <serverAdmin>
+      <name>bf060.eng.sonusnet.com</name>
+      <appName>ConnexIp</appName>
+      <coredumpProfile>default</coredumpProfile>
+      <role>primary</role>
+      <state>enabled</state>
+      <mode>inService</mode>
+      <hwType>SBC7000</hwType>
+      <modularType>true</modularType>
+      <pktPortSpeed>speed10Gbps</pktPortSpeed>
+    </serverAdmin>
+    <daughterBoardAdmin>
+      <ceName>bf060.eng.sonusnet.com</ceName>
+      <slot>1</slot>
+    </daughterBoardAdmin>
+    <daughterBoardAdmin>
+      <ceName>bf060.eng.sonusnet.com</ceName>
+      <slot>2</slot>
+    </daughterBoardAdmin>
+    <daughterBoardAdmin>
+      <ceName>bf060.eng.sonusnet.com</ceName>
+      <slot>3</slot>
+    </daughterBoardAdmin>
+    <daughterBoardAdmin>
+      <ceName>bf060.eng.sonusnet.com</ceName>
+      <slot>4</slot>
+    </daughterBoardAdmin>
+    <outOfMemoryCoredump>
+     <threshold>85</threshold>
+    </outOfMemoryCoredump>
+  </system>
+</config>

@@ -1,0 +1,92 @@
+# Created by: admin
+# Date: 2020-01-23 03:54:07
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10030
+
+addressContext default {
+    zone ZONE_AS {
+        sipTrunkGroup TG_SIPART_AS {
+            cac {
+                delete:
+                hpcOversubscription 10;
+                egress {
+                    delete:
+                    hpcOversubscription 100;
+                    delete:
+                    registerRateMax unlimited;
+                    delete:
+                    subscribeBurstMax 3000;
+                    delete:
+                    callLimit unlimited;
+                    delete:
+                    registerBurstMax unlimited;
+                    delete:
+                    otherReqRateMax 3000;
+                    delete:
+                    subscribeRateMax 300;
+                    delete:
+                    extendedEmergencyIpLimit 40000;
+                    delete:
+                    callRateMax unlimited;
+                    delete:
+                    callBurstMax unlimited;
+                    delete:
+                    otherReqBurstMax 3000;
+                    delete:
+                    emergencyOversubscription 10;
+                }
+                delete:
+                tcpMediaLimit unlimited;
+                delete:
+                subscriptionLimit unlimited;
+                delete:
+                bandwidthLimitThreshold 0;
+                delete:
+                callLimit unlimited;
+                delete:
+                registrationLimit unlimited;
+                delete:
+                bandwidthLimit unlimited;
+                delete:
+                bandwidthVideoThreshold 0;
+                ingress {
+                    delete:
+                    hpcOversubscription 10;
+                    delete:
+                    registerRateMax unlimited;
+                    delete:
+                    subscribeBurstMax unlimited;
+                    delete:
+                    callLimit unlimited;
+                    delete:
+                    registerBurstMax unlimited;
+                    delete:
+                    otherReqRateMax unlimited;
+                    delete:
+                    subscribeRateMax unlimited;
+                    delete:
+                    extendedEmergencyIpLimit 0;
+                    delete:
+                    callRateMax unlimited;
+                    delete:
+                    callBurstMax unlimited;
+                    delete:
+                    otherReqBurstMax unlimited;
+                    delete:
+                    emergencyOversubscription 10;
+                }
+                delete:
+                estimatedChildRegistrations 1;
+                delete:
+                extendedEmergencyIpLimit 0;
+                delete:
+                callLimitThreshold 0;
+                delete:
+                emergencyOversubscription 10;
+            }
+         }
+     }
+ }

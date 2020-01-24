@@ -1,0 +1,14 @@
+# Created by: admin
+# Date: 2020-01-22 09:38:52
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10018
+
+profiles {
+    callRouting {
+        delete:
+        elementRoutingPriority TGPRIO;
+    }
+ }

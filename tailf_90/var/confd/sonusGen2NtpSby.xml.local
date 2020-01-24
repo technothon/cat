@@ -1,0 +1,14 @@
+<!--
+# SBX startup configuration file.
+#
+# Copyright (c) 2010 Sonus Networks, Inc.
+# All rights reserved.
+#
+
+--> 
+<config xmlns="http://tail-f.com/ns/config/1.0">
+  <ntp xmlns="http://sonusnet.com/ns/mibs/SONUS-GEN2-NTP-SERVICES-MIB/1.0">
+
+  </ntp>
+</config>
+

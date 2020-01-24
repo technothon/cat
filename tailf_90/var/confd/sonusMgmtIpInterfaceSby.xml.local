@@ -1,0 +1,47 @@
+<!--
+# SBX startup configuration file.
+#
+# Copyright (c) 2010 Sonus Networks, Inc.
+# All rights reserved.
+#
+-->
+<config xmlns="http://tail-f.com/ns/config/1.0">
+  <mgmtIpInterfaceGroup xmlns="http://sonusnet.com/ns/mibs/SONUS-MGMT-IP-INTERFACE/1.0">
+    <name>mgmtGroup</name>
+    <autoIndex>1</autoIndex>
+    <mgmtIpInterface>
+      <name>mgmtIntf1</name>
+      <ceName>bf060.eng.sonusnet.com</ceName>
+      <portName>mgt0</portName>
+      <ipAddressV4>10.6.4.163</ipAddressV4>
+      <prefixV4>24</prefixV4>
+      <state>enabled</state>
+      <autoIndex>5</autoIndex>
+    </mgmtIpInterface>
+    <mgmtIpInterface>
+      <name>mgmtIntf2</name>
+      <ceName>bf060.eng.sonusnet.com</ceName>
+      <portName>mgt1</portName>
+      <ipAddressV4>10.6.45.163</ipAddressV4>
+      <prefixV4>24</prefixV4>
+      <state>enabled</state>
+      <autoIndex>6</autoIndex>
+    </mgmtIpInterface>
+  </mgmtIpInterfaceGroup>
+    <mgmtStaticRoute xmlns="http://sonusnet.com/ns/mibs/SONUS-MGMT-IP-INTERFACE/1.0">
+      <destinationIpAddress>0.0.0.0</destinationIpAddress>
+      <prefix>0</prefix>
+      <nextHop>10.6.4.1</nextHop>
+      <ipInterfaceGroupName>mgmtGroup</ipInterfaceGroupName>
+      <ipInterfaceName>mgmtIntf1</ipInterfaceName>
+      <preference>10</preference>
+    </mgmtStaticRoute>
+    <mgmtStaticRoute xmlns="http://sonusnet.com/ns/mibs/SONUS-MGMT-IP-INTERFACE/1.0">
+      <destinationIpAddress>0.0.0.0</destinationIpAddress>
+      <prefix>0</prefix>
+      <nextHop>10.6.45.1</nextHop>
+      <ipInterfaceGroupName>mgmtGroup</ipInterfaceGroupName>
+      <ipInterfaceName>mgmtIntf2</ipInterfaceName>
+      <preference>10</preference>
+    </mgmtStaticRoute>
+</config>

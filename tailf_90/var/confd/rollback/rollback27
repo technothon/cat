@@ -1,0 +1,18 @@
+# Created by: system
+# Date: 2020-01-22 06:39:25
+# Via: system
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10003
+
+delete:
+mgmtStaticRoute 0.0.0.0 0 10.6.4.1 mgmtGroup mgmtIntf1;
+delete:
+mgmtStaticRoute 0.0.0.0 0 10.6.45.1 mgmtGroup mgmtIntf2;
+mgmtIpInterfaceGroup mgmtGroup {
+    delete:
+    mgmtIpInterface mgmtIntf1;
+    delete:
+    mgmtIpInterface mgmtIntf2;
+}

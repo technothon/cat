@@ -1,0 +1,20 @@
+# Created by: system
+# Date: 2020-01-22 06:39:24
+# Via: system
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10002
+
+system {
+    delete:
+    serverAdmin bf060.eng.sonusnet.com;
+    delete:
+    daughterBoardAdmin bf060.eng.sonusnet.com 1;
+    delete:
+    daughterBoardAdmin bf060.eng.sonusnet.com 2;
+    delete:
+    daughterBoardAdmin bf060.eng.sonusnet.com 3;
+    delete:
+    daughterBoardAdmin bf060.eng.sonusnet.com 4;
+}

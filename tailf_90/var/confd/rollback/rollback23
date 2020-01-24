@@ -1,0 +1,14 @@
+# Created by: admin
+# Date: 2020-01-22 09:38:37
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10007
+
+addressContext default {
+    delete:
+    staticRoute 10.7.0.0 16 10.7.1.1 LIG1 LIF1_v4;
+    delete:
+    staticRoute 10.8.0.0 16 10.7.1.1 LIG2 LIF2_v4;
+}
