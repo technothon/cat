@@ -128,7 +128,16 @@ def main():
             json_data=json.dumps(cluster)
             with open(output_path,mode) as file:
                 file.write(json_data)
-       
-main()
+    return cluster
 
+def stats():
+    cluster_data = main()
+    numOfCluster = len(cluster_data.keys())
+    clusterCountL = []
+    for key,value in cluster_data.items():
+        clusterCountL.append(len(value))
+    mostUsed = max(clusterCountL)
+    leastUsed = min(clusterCountL)
+    return numOfCluster, mostUsed, leastUsed  
+        
     
