@@ -165,6 +165,7 @@ for configKey in configKeyList:
 
     replaceStringDict = {
          "a-only": "1",
+         "a-srv-naptr" : "2",
          "allow": "1",
          "both": "1",
          "convert": "0",
@@ -177,6 +178,7 @@ for configKey in configKeyList:
          "localignored": "0",
          "noAction": "0",
          "none": "0",
+         "outOfService": "0",
          "passthru": "1",
          "required": "1",
          "supported": "1",
@@ -190,7 +192,8 @@ for configKey in configKeyList:
          "force": "1",
          "challengeForRegister": "1",
          "unlimited": "100",
-         "noValidation": "0"
+         "noValidation": "0",
+         "release": "1"
     }
 
     with open(csvFileName, "r") as fin:
